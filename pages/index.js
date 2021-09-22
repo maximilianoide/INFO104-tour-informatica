@@ -11,13 +11,13 @@ const Index = () => {
 
       <main>
         <Image
-          src="/images/eye.png"
+          src="/images/edificio.png"
           height={294} // Desired size with correct aspect ratio
           width={470} // Desired size with correct aspect ratio
-          alt="ojo"
+          alt="edificio"
         />
 
-        <h1 className="title">¿Cómo ha sido tu semana?</h1>
+        <h1 className="title">TOUR POR EL EDIFICIO DE INFORMÁTICA</h1>
 
         <p className="description">
           Este código está en <code>pages/index.js</code>
@@ -30,7 +30,7 @@ const Index = () => {
               query: { opt: 0 },
             }}
           >
-            <a className="card">Excelente!</a>
+            <a className="card">Comenzar tour</a>
           </Link>
           <Link
             href={{
@@ -38,7 +38,7 @@ const Index = () => {
               query: { opt: 1 },
             }}
           >
-            <a className="card">Más o menos no mas!</a>
+            <a className="card">Ver edificio desde fuera</a>
           </Link>
           <Link
             href={{
@@ -46,7 +46,7 @@ const Index = () => {
               query: { opt: 2 },
             }}
           >
-            <a className="card">Horrible! :(</a>
+            <a className="card">Boton extra ._.xD</a>
           </Link>
         </div>
       </main>
