@@ -26,7 +26,7 @@ const Index = () => {
         <div className="grid">
           <Link
             href={{
-              pathname: "/response",
+              pathname: "/page1",
               query: { opt: 0 },
             }}
           >
@@ -34,15 +34,14 @@ const Index = () => {
           </Link>
           <Link
             href={{
-              pathname: "/response",
-              query: { opt: 1 },
+              pathname: "/page1"
             }}
           >
             <a className="card">Ver edificio desde fuera</a>
           </Link>
           <Link
             href={{
-              pathname: "/response",
+              pathname: "/page1",
               query: { opt: 2 },
             }}
           >

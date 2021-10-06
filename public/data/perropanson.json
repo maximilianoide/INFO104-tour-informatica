@@ -1,0 +1,15 @@
+[{
+    "id": 0,
+    "nombre": "perro panson",
+    "desc": "todo chiquito, todo panson",
+    "imagen": "./images/perroPanson.png",
+    "botones": [{"nom":"Todo chiquito","escenaDestino":0,"porx":"55%","pory":"12%"},{"nom":"Todo panson","escenaDestino":1,"porx":"0%","pory":"80%"}]
+},
+{
+    "id": 1,
+    "nombre": "Ohhh si",
+    "desc": "OH si",
+    "imagen": "./images/foca.png",
+    "botones": [{"nom":"Funciona","escenaDestino":0,"porx":"60%","pory":"70%"},{"nom":"Que bien","escenaDestino":1,"porx":"10%","pory":"30%"}]
+}
+]

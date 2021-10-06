@@ -2,20 +2,33 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Layout from "../components/layout";
+import Escena from "../components/escena";
+import { Script } from "vm";
+var ruta = "data/perropanson.json"
 
-export default function Page1() {
+export async function getServerSideProps(context) {
+  const res = await fetch("http://localhost:3000/data/perropanson.json");
+  const data = await res.json();
+
+  if (!data) {
+    return {
+      notFound: true,
+    };
+  }
+
+  return {
+    props: { data },
+  };
+}
+
+export default function Page1({ data }) {
   return (
     <Layout pageId="page1">
+
       <Head>
-        <title>Página 1</title>
+        <title>Perro Panson</title>
       </Head>
-      <h1>Página Uno</h1>
-      <Image
-        src="/images/eye.png"
-        height={294} // Desired size with correct aspect ratio
-        width={470} // Desired size with correct aspect ratio
-        alt="ojo"
-      />
+      <Escena escenas={data} ></Escena>
     </Layout>
   );
 }
