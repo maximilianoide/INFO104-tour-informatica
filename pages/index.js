@@ -34,7 +34,7 @@ const Index = () => {
           </Link>
           <Link
             href={{
-              pathname: "/page1"
+              pathname: "/page1",
             }}
           >
             <a className="card">Ver edificio desde fuera</a>

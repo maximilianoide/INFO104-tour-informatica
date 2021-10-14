@@ -1,15 +1,26 @@
 [{
     "id": 0,
     "nombre": "perro panson",
-    "desc": "todo chiquito, todo panson",
+    "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum ",
     "imagen": "./images/perroPanson.png",
-    "botones": [{"nom":"Todo chiquito","escenaDestino":0,"porx":"55%","pory":"12%"},{"nom":"Todo panson","escenaDestino":1,"porx":"0%","pory":"80%"}]
+    "botones": [{"nom":"Todo chiquito","escenaDestino":2,"porx":"50%","pory":"50%"},{"nom":"Todo panson","escenaDestino":1,"porx":"50%","pory":"50%"}],
+    "info": []
+
 },
 {
     "id": 1,
     "nombre": "Ohhh si",
     "desc": "OH si",
     "imagen": "./images/foca.png",
-    "botones": [{"nom":"Funciona","escenaDestino":0,"porx":"60%","pory":"70%"},{"nom":"Que bien","escenaDestino":1,"porx":"10%","pory":"30%"}]
+    "botones": [{"nom":"Funciona","escenaDestino":2,"porx":"60%","pory":"70%"},{"nom":"Que bien","escenaDestino":0,"porx":"10%","pory":"30%"}],
+    "info": []
+},
+{
+    "id":2,
+    "nombre": "ojo",
+    "desc": "es un ojo",
+    "imagen": "./images/eye.png",
+    "botones": [{"nom":"Funciona","escenaDestino":0,"porx":"60%","pory":"70%"},{"nom":"Que bien","escenaDestino":1,"porx":"10%","pory":"30%"}],
+    "info": []
 }
 ]

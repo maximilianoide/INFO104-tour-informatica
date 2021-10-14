@@ -4,7 +4,7 @@ import Image from "next/image";
 import Layout from "../components/layout";
 import Escena from "../components/escena";
 import { Script } from "vm";
-var ruta = "data/perropanson.json"
+var ruta = "data/perropanson.json";
 
 export async function getServerSideProps(context) {
   const res = await fetch("http://localhost:3000/data/perropanson.json");
@@ -24,11 +24,10 @@ export async function getServerSideProps(context) {
 export default function Page1({ data }) {
   return (
     <Layout pageId="page1">
-
       <Head>
         <title>Perro Panson</title>
       </Head>
-      <Escena escenas={data} ></Escena>
+      <Escena escenas={data}></Escena>
     </Layout>
   );
 }

@@ -4,9 +4,9 @@ import { useRouter } from "next/router";
 
 const Respuesta = () => {
   let texts = [
-    "Comienzo del recorrido" ,
+    "Comienzo del recorrido",
     "Aquí debería mostrarse una imagen desde fuera del edificio",
-    "Aún no decidimos para que será este botón"
+    "Aún no decidimos para que será este botón",
   ];
   const router = useRouter();
   console.log(router.query);

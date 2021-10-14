@@ -4,6 +4,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -147,7 +148,6 @@ code {
   max-width: 800px;
   margin-top: 3rem;
 }
-
 .card {
   margin: 1rem;
   flex-basis: 80%;
@@ -187,4 +187,46 @@ code {
     width: 100%;
     flex-direction: column;
   }
+}
+.botonMovedor:hover {
+  opacity: 1;
+}
+
+.botonMovedor {
+  opacity: 0.3;
+  position: relative;
+  background-color: #555;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#marcoImagen {
+  position: absolute;
+  top: 82px;
+  bottom: 0px;
+  right: 700px;
+  left: 20px;
+  width: 0px;
+}
+#imagen {
+  border: solid rgb(0, 255, 13);
+}
+#tabla {
+  background-color: rgb(31, 3, 43);
+  border: solid rgb(0, 255, 13);
+  position: relative;
+  top: 0px;
+  bottom: 500px;
+  right: 0px;
+  left: 475px;
+  width: 300px;
+}
+tr,
+td {
+  padding: 20px;
 }
