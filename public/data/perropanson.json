@@ -3,8 +3,8 @@
     "nombre": "perro panson",
     "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum ",
     "imagen": "./images/perroPanson.png",
-    "botones": [{"nom":"Todo chiquito","escenaDestino":2,"porx":"50%","pory":"50%"},{"nom":"Todo panson","escenaDestino":1,"porx":"50%","pory":"50%"}],
-    "info": []
+    "botones": [{"nom":"90 90","escenaDestino":2,"porx":"90%","pory":"90%"},{"nom":"10 10","escenaDestino":1,"porx":"10%","pory":"10%"},{"nom":"10 90","escenaDestino":1,"porx":"10%","pory":"90%"},{"desc":"soy info y tengo mucha info","porx": "10%","pory":"10%"},{"desc":"soy info y tengo mucha info","porx": "12%","pory":"15%"}],
+    "info": [{"desc":"soy info y tengo mucha info","porx": "90%","pory":"90%"},{"desc":"soy info 2 y tengo tora info","porx": "10%","pory":"10%"}]
 
 },
 {
