@@ -237,6 +237,7 @@ td {
 }
 .botonInfo {
   opacity: 0.5;
+  position: absolute;
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;

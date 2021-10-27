@@ -58,7 +58,7 @@ const Escena = ({ escenas }) => {
                 }}
                 onClick={(e) => {}}
               >
-                <img src="images/info-icon.png" style={{}}></img>
+                <img src="images/info.png" style={{}}></img>
               </button>
             </PopoverTrigger>
             <PopoverContent>
