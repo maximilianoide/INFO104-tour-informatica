@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background-color: #333333;
+  background-color: #d8bdbd;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -221,6 +221,19 @@ code {
 #imagen {
   border: solid rgb(0, 255, 13);
   position: relative;
+  width: 64rem;
+  height: 44.8rem;
+  background-size: cover;
+  border: 1px solid #990000;
+  background-repeat: no-repeat;
+}
+ {
+  /*@media (max-width: 768px) {
+  #imagen {
+    height: 20rem;
+    width: 18rem;
+  }
+}*/
 }
 #tabla {
   position: relative;

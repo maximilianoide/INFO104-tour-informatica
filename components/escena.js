@@ -25,11 +25,6 @@ const Escena = ({ escenas }) => {
         id="imagen"
         style={{
           backgroundImage: "url('" + escenaActual.imagen + "')",
-          backgroundSize: "cover",
-          border: "1px solid #990000",
-          backgroundRepeat: "no-repeat",
-          width: "1000px",
-          height: "700px",
         }}
         alt={escenaActual.nombre}
       >
