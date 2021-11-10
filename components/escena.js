@@ -71,18 +71,24 @@ const Escena = ({ escenas }) => {
           </Popover>
         ))}
       </div>
-      <div id="tabla">
-        <table border="2">
-          <tr>
-            <td style={{ fontSize: "35px", color: "#fff" }}>
-              {escenaActual.nombre}
+      <ul id="listaInfo">
+        <li>{escenaActual.nombre}</li>
+        <li>{escenaActual.desc}</li>
+      </ul>
+      {/* <div id="tabla">
+        <table id="tabla2" border="2">
+          <tr border="2">
+            <td id="espacioTabla">
+              <b>{escenaActual.nombre}</b>
             </td>
           </tr>
-          <tr>
-            <td style={{ color: "#fff" }}>{escenaActual.desc}</td>
+          <tr border="2">
+            <td id="espacioTabla" style={{ fontSize: "20px" }}>
+              {escenaActual.desc}
+            </td>
           </tr>
         </table>
-      </div>
+      </div> */}
     </>
   );
 };

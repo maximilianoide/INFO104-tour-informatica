@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import ViewCount from "../components/viewCount";
 import React, { useState } from "react";
+import { background } from "@chakra-ui/styled-system";
 
 const Layout = ({ children, pageId }) => {
   const [nViews, setViews] = useState(0);

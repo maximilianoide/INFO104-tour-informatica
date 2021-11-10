@@ -14,6 +14,7 @@ body {
 }
 
 .container {
+  background-color: #333333;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -222,18 +223,29 @@ code {
   position: relative;
 }
 #tabla {
-  background-color: rgb(31, 3, 43);
-  border: solid rgb(0, 255, 13);
   position: relative;
-  top: 0px;
-  bottom: 500px;
+  top: -700px;
+  bottom: 0px;
   right: 0px;
-  left: 475px;
+  left: 1000px;
   width: 300px;
+}
+
+#espacioTabla {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.555);
+  border: 2px solid hsl(221, 47%, 47%);
+}
+#tabla2 {
+  table-layout: fixed;
+  width: 450px;
+  height: 700px;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 tr,
 td {
-  padding: 20px;
+  padding: 10px;
 }
 .botonInfo {
   opacity: 0.5;
