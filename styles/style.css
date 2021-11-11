@@ -90,8 +90,6 @@ a {
   font-size: 0.8em;
   cursor: pointer;
 }
-.todo-list {
-}
 .todo-item {
   display: flex;
   padding: 10px;
@@ -227,14 +225,12 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
 }
- {
-  /*@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   #imagen {
     height: 20rem;
     width: 18rem;
   }
 }*/
-}
 #tabla {
   position: relative;
   top: -700px;
