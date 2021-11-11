@@ -1,0 +1,74 @@
+[
+	{
+		"id":0,
+		"nombre":"Hall",
+		"desc":"La entrada al edificio de informática",
+		"imagen": "./images/piso01/EDINFO_1_01.jpg",
+		"botones":[{"nom":"Escaleras","escenaDestino":0,"porx":"55%","pory":"60%"},
+			{"nom":"Hall","escenaDestino":1,"porx":"80%","pory":"70%"},
+			{"nom":"Hall","escenaDestino":7,"porx":"20%","pory":"80%"}],
+		"info": []
+	},
+	{
+		"id":1,
+		"nombre":"Hall",
+		"desc":"La entrada al edificio de informática",
+		"imagen":  "./images/piso01/EDINFO_1_02.jpg",
+		"botones":[{"nom":"Hall","escenaDestino":0,"porx":"50%","pory":"90%"},
+			{"nom":"Ascensor","escenaDestino":2,"porx":"30%","pory":"50%"},
+			{"nom":"Hall","escenaDestino":3,"porx":"74%","pory":"50%"}],
+		"info": []
+	},
+	{
+		"id":2,
+		"nombre":"Ascensor",
+		"desc":"El ascensor del edificio de informatica permite una mayor accesibilidad para todos los profesores, estudiantes y funcionarios",
+		"imagen":  "./images/piso01/EDINFO_1_03.jpg",
+		"botones":[{"nom":"Entrar","escenaDestino":2,"porx":"50%","pory":"55%"},
+			{"nom":"Volver","escenaDestino":1,"porx":"14%","pory":"86%"}],
+		"info": []
+	},
+	{
+		"id":3,
+		"nombre":"Hall",
+		"desc":"La entrada al edificio de informática",
+		"imagen":  "./images/piso01/EDINFO_1_04.jpg",
+		"botones":[{"nom":"Hall","escenaDestino":1,"porx":"33%","pory":"94%"},
+			{"nom":"Hall","escenaDestino":4,"porx":"90%","pory":"50%"},
+			{"nom":"Pasillo","escenaDestino":5,"porx":"25%","pory":"60%"}],
+		"info": [{"desc":"Tesis de egresados de Informática","porx":"59%","pory":"41%"}]
+	},
+	{
+		"id":4,
+		"nombre":"Hall",
+		"desc":"La entrada al edificio de informática",
+		"imagen":  "./images/piso01/EDINFO_1_05.jpg",
+		"botones":[{"nom":"Hall","escenaDestino":3,"porx":"51%","pory":"94%"}],
+		"info": []
+	},
+	{
+		"id":5,
+		"nombre":"Pasillo",
+		"desc":"Pasillo que conecta el hall con la cafeteria, el laboratorio Curiñanco y la sala de reuniones",
+		"imagen":  "./images/piso01/EDINFO_1_06.jpg",
+		"botones":[{"nom":"Hall","escenaDestino":3,"porx":"51%","pory":"94%"},
+			{"nom":"Lab. Curiñanco","escenaDestino":6,"porx":"50%","pory":"51%"}],
+		"info":[]
+	},
+	{
+		"id":6,
+		"nombre":"Laboratorio Curiñanco",
+		"desc":"El increible Laboratorio Curiñanco",
+		"imagen":  "./images/piso01/EDINFO_1_07.jpg",
+		"botones":[{"nom":"Volver","escenaDestino":5,"porx":"91%","pory":"92%"}],
+		"info":[]
+	},
+	{
+		"id":7,
+		"nombre":"Hall",
+		"desc":"La entrada al edificio de informática",
+		"imagen":  "./images/piso01/EDINFO_1_08.jpg",
+		"botones":[{"nom":"Hall","escenaDestino":0,"porx":"91%","pory":"70%"}],
+		"info":[{"desc":"Oficina de la Secretaria","porx":"40%","pory":"54%"}]
+	}
+]

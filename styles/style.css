@@ -204,6 +204,7 @@ code {
   cursor: pointer;
   border-radius: 3px;
   text-align: center;
+  transform: translate(-50%, -50%);
 }
 
 #marcoImagen1 {
@@ -224,7 +225,6 @@ code {
   width: 64rem;
   height: 44.8rem;
   background-size: cover;
-  border: 1px solid #990000;
   background-repeat: no-repeat;
 }
  {
@@ -269,6 +269,7 @@ td {
   cursor: pointer;
   overflow: hidden;
   outline: none;
+  transform: translate(-50%, -50%);
 }
 .botonInfo:hover {
   opacity: 1;
