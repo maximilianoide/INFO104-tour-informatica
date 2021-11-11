@@ -13,10 +13,8 @@ import {
 
 const Escena = ({ escenas }) => {
   const [escenaActual, setEscenaActual] = useState(escenas[0]);
-  var imagenUrl = 'url("' + escenaActual.imagen + '")';
   useEffect(() => {
     console.log(escenaActual.nombre);
-    var imagenUrl = 'url("' + escenaActual.imagen + '")';
   }, [escenaActual]);
 
   return (
@@ -53,7 +51,7 @@ const Escena = ({ escenas }) => {
                 }}
                 onClick={(e) => {}}
               >
-                <img src="images/info.png" style={{}}></img>
+                <img src="images/info.svg" style={{}}></img>
               </button>
             </PopoverTrigger>
             <PopoverContent>
@@ -66,10 +64,8 @@ const Escena = ({ escenas }) => {
           </Popover>
         ))}
       </div>
-      <ul id="listaInfo">
-        <li>{escenaActual.nombre}</li>
-        <li>{escenaActual.desc}</li>
-      </ul>
+      <div className="nom">{escenaActual.nombre}</div>
+      <div className="desc">{escenaActual.desc}</div>
       {/* <div id="tabla">
         <table id="tabla2" border="2">
           <tr border="2">

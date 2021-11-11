@@ -7,7 +7,7 @@ import { Script } from "vm";
 var ruta = "data/perropanson.json";
 
 export async function getServerSideProps(context) {
-  const res = await fetch("http://localhost:3004/data/perropanson.json");
+  const res = await fetch("http://localhost:3004/data/EDINFO.json");
   const data = await res.json();
 
   if (!data) {

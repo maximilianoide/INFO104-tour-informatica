@@ -5,7 +5,7 @@
   "main": "pages/index.js",
   "scripts": {
     "build": "next build",
-    "dev": "next",
+    "dev": "next -p 3004",
     "start": "next start -p 3004"
   },
   "dependencies": {
