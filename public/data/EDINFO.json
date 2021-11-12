@@ -36,7 +36,7 @@
 		"botones":[{"nom":"Hall","escenaDestino":1,"porx":"33%","pory":"94%"},
 			{"nom":"Hall","escenaDestino":4,"porx":"90%","pory":"50%"},
 			{"nom":"Pasillo","escenaDestino":5,"porx":"25%","pory":"60%"}],
-		"info": [{"desc":"Tesis de egresados de Informática","porx":"59%","pory":"41%"}]
+		"info": [{"desc":"Tesis de egresados de Informática","porx":"65%","pory":"41%"}]
 	},
 	{
 		"id":4,

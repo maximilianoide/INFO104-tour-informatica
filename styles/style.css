@@ -204,22 +204,11 @@ code {
   text-align: center;
   transform: translate(-50%, -50%);
 }
-
-#marcoImagen1 {
-  position: absolute;
-  top: 82px;
-  bottom: 0px;
-  right: 700px;
-  left: 20px;
-  width: 0px;
-}
-#marcoImagen {
-  border: #b81a1a;
-  border-radius: 1cm;
-}
 #imagen {
-  border: solid rgb(0, 255, 13);
+  border: solid hsla(318, 78%, 25%, 0.527);
   position: relative;
+  top: 1rem;
+  left: -13rem;
   width: 64rem;
   height: 44.8rem;
   background-size: cover;
@@ -269,4 +258,28 @@ td {
 }
 .botonInfo:hover {
   opacity: 1;
+}
+.nom {
+  position: relative;
+  top: -43.875rem;
+  left: 33rem;
+  font-size: 4rem;
+  color: #eaeaea;
+  text-align: center;
+  text-size-adjust: auto;
+  background-color: #6b4747;
+  border-radius: 5%;
+  width: 25rem;
+}
+.desc {
+  position: relative;
+  top: -40.875rem;
+  left: 33rem;
+  font-size: 1.5rem;
+  color: #eaeaea;
+  text-align: center;
+  text-size-adjust: auto;
+  background-color: #6b4747;
+  border-radius: 5%;
+  width: 25rem;
 }
