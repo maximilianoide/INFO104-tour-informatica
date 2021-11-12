@@ -206,14 +206,13 @@ code {
 }
 #imagen {
   border: solid hsla(318, 78%, 25%, 0.527);
-  position: relative;
+  position: absolute;
   top: 1rem;
-  left: -13rem;
+  left: 1rem;
   width: 64rem;
   height: 44.8rem;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 1rem;
   border-radius: 1rem;
 }
 /*@media (max-width: 768px) {
@@ -262,9 +261,9 @@ td {
   opacity: 1;
 }
 .nom {
-  position: relative;
-  top: -43.875rem;
-  left: 33rem;
+  position: absolute;
+  top: 1rem;
+  left: 67rem;
   font-size: 4rem;
   color: #eaeaea;
   text-align: center;
@@ -275,15 +274,15 @@ td {
   padding: 0.5rem 0.5rem;
 }
 .desc {
-  position: relative;
-  top: -40.875rem;
-  left: 33rem;
+  position: absolute;
+  top: 10rem;
+  left: 67rem;
   font-size: 1.5rem;
   color: #eaeaea;
   text-align: center;
   text-size-adjust: auto;
   background-color: #6b4747;
   border-radius: 4rem;
-  width: 25rem;
+  width: 25vw;
   padding: 0.5rem 0.5rem;
 }
