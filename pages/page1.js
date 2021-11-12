@@ -25,7 +25,7 @@ export default function Page1({ data }) {
   return (
     <div className="container">
       <Head>
-        <title>Perro Panson</title>
+        <title>Tour Edificio Informática</title>
       </Head>
       <Escena escenas={data}></Escena>
     </div>
