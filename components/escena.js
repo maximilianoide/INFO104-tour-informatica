@@ -64,8 +64,10 @@ const Escena = ({ escenas }) => {
           </Popover>
         ))}
       </div>
-      <div className="nom">{escenaActual.nombre}</div>
-      <div className="desc">{escenaActual.desc}</div>
+      <div className="tabla">
+        <div className="nom">{escenaActual.nombre}</div>
+        <div className="desc">{escenaActual.desc}</div>
+      </div>
       {/* <div id="tabla">
         <table id="tabla2" border="2">
           <tr border="2">

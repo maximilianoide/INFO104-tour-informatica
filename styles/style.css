@@ -221,27 +221,6 @@ code {
     width: 18rem;
   }
 }*/
-#tabla {
-  position: relative;
-  top: -700px;
-  bottom: 0px;
-  right: 0px;
-  left: 1000px;
-  width: 300px;
-}
-
-#espacioTabla {
-  font-size: 30px;
-  color: rgba(255, 255, 255, 0.555);
-  border: 2px solid hsl(221, 47%, 47%);
-}
-#tabla2 {
-  table-layout: fixed;
-  width: 450px;
-  height: 700px;
-  overflow: hidden;
-  word-wrap: break-word;
-}
 tr,
 td {
   padding: 10px;
@@ -261,28 +240,28 @@ td {
   opacity: 1;
 }
 .nom {
-  position: absolute;
-  top: 1rem;
-  left: 67rem;
+  position: relative;
   font-size: 4rem;
   color: #eaeaea;
   text-align: center;
-  text-size-adjust: auto;
   background-color: #6b4747;
   border-radius: 4rem;
   width: 25rem;
   padding: 0.5rem 0.5rem;
 }
 .desc {
-  position: absolute;
-  top: 10rem;
-  left: 67rem;
+  margin-top: 1rem;
+  position: relative;
   font-size: 1.5rem;
   color: #eaeaea;
   text-align: center;
-  text-size-adjust: auto;
   background-color: #6b4747;
   border-radius: 4rem;
-  width: 25vw;
+  width: 25rem;
   padding: 0.5rem 0.5rem;
+}
+.tabla {
+  position: absolute;
+  top: 1rem;
+  left: 67rem;
 }
