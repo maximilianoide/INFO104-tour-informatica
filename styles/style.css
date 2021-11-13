@@ -25,7 +25,7 @@ body {
 
 main {
   padding: 5rem 0;
-  flex: 1;
+  flex: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,37 +193,27 @@ code {
 
 .botonMovedor {
   position: absolute;
-  opacity: 0.3;
-  background-color: #555;
-  color: white !important;
-  font-size: 16px;
-  padding: 12px 24px;
+  opacity: 0.6;
+  color: #eaeaea;
+  background-color: #d8bdbd;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
   border: none;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 4rem;
   text-align: center;
   transform: translate(-50%, -50%);
 }
-
-#marcoImagen1 {
-  position: absolute;
-  top: 82px;
-  bottom: 0px;
-  right: 700px;
-  left: 20px;
-  width: 0px;
-}
-#marcoImagen {
-  border: #b81a1a;
-  border-radius: 1cm;
-}
 #imagen {
-  border: solid rgb(0, 255, 13);
-  position: relative;
+  border: solid hsla(318, 78%, 25%, 0.527);
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
   width: 64rem;
   height: 44.8rem;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 1rem;
 }
 /*@media (max-width: 768px) {
   #imagen {
@@ -269,4 +259,30 @@ td {
 }
 .botonInfo:hover {
   opacity: 1;
+}
+.nom {
+  position: absolute;
+  top: 1rem;
+  left: 67rem;
+  font-size: 4rem;
+  color: #eaeaea;
+  text-align: center;
+  text-size-adjust: auto;
+  background-color: #6b4747;
+  border-radius: 4rem;
+  width: 25rem;
+  padding: 0.5rem 0.5rem;
+}
+.desc {
+  position: absolute;
+  top: 10rem;
+  left: 67rem;
+  font-size: 1.5rem;
+  color: #eaeaea;
+  text-align: center;
+  text-size-adjust: auto;
+  background-color: #6b4747;
+  border-radius: 4rem;
+  width: 25vw;
+  padding: 0.5rem 0.5rem;
 }

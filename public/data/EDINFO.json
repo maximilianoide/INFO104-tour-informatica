@@ -6,7 +6,8 @@
 		"imagen": "./images/piso01/EDINFO_1_01.jpg",
 		"botones":[{"nom":"Escaleras","escenaDestino":0,"porx":"55%","pory":"60%"},
 			{"nom":"Hall","escenaDestino":1,"porx":"80%","pory":"70%"},
-			{"nom":"Hall","escenaDestino":7,"porx":"20%","pory":"80%"}],
+			{"nom":"Hall","escenaDestino":7,"porx":"20%","pory":"80%"},
+		{"nom":"salir","escenaDestino":10,"porx":"55%","pory":"95%"}],
 		"info": []
 	},
 	{
@@ -36,7 +37,7 @@
 		"botones":[{"nom":"Hall","escenaDestino":1,"porx":"33%","pory":"94%"},
 			{"nom":"Hall","escenaDestino":4,"porx":"90%","pory":"50%"},
 			{"nom":"Pasillo","escenaDestino":5,"porx":"25%","pory":"60%"}],
-		"info": [{"desc":"Tesis de egresados de Informática","porx":"59%","pory":"41%"}]
+		"info": [{"desc":"Tesis de egresados de Informática","porx":"65%","pory":"41%"}]
 	},
 	{
 		"id":4,
@@ -70,5 +71,58 @@
 		"imagen":  "./images/piso01/EDINFO_1_08.jpg",
 		"botones":[{"nom":"Hall","escenaDestino":0,"porx":"91%","pory":"70%"}],
 		"info":[{"desc":"Oficina de la Secretaria","porx":"40%","pory":"54%"}]
+	},
+	{
+		"id":8,
+		"nombre":"Calle",
+		"desc":"Vista externa del edificio de informática",
+		"imagen":  "./images/piso00/EDINFO_0_01.jpg",
+		"botones":[{"nom":"avanzar","escenaDestino":9,"porx":"85%","pory":"70%"},
+		{"nom": "izquierda","escenaDestino":11,"porx":"14%","pory":"70%"}],
+		"info": []
+	},
+	{
+		"id":9,
+		"nombre":"Patio",
+		"desc":"Patio del edificio de informática",
+		"imagen":  "./images/piso00/EDINFO_0_02.jpg",
+		"botones":[{"nom":"avanzar","escenaDestino":10,"porx":"14%","pory":"50%"},
+		{"nom": "derecha","escenaDestino":13,"porx":"95%","pory":"54%"},
+		{"nom": "calle","escenaDestino":8,"porx":"54%","pory":"94%"}],
+		"info": []
+	},
+	{
+		"id":10,
+		"nombre":"Entrada",
+		"desc":"Entrada del edificio de informática",
+		"imagen":  "./images/piso00/EDINFO_0_03.jpg",
+		"botones":[{"nom":"entrar","escenaDestino":0,"porx":"60%","pory":"50%"},
+		{"nom": "patio","escenaDestino":9,"porx":"20%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":11,
+		"nombre":"Edificio por la Izquierda",
+		"desc":"Vista lateral del edificio de informática",
+		"imagen":  "./images/piso00/EDINFO_0_04.jpg",
+		"botones":[{"nom":"cartel","escenaDestino":12,"porx":"50%","pory":"90%"},
+		{"nom":"volver","escenaDestino":8,"porx":"94%","pory":"50%"}],
+		"info": []
+	},
+	{
+		"id":12,
+		"nombre":"Cartel",
+		"desc":"Cartel del edificio de informática",
+		"imagen":  "./images/piso00/EDINFO_0_05.jpg",
+		"botones":[{"nom":"volver","escenaDestino":11,"porx":"91%","pory":"70%"}],
+		"info": []
+	},
+	{
+		"id":13,
+		"nombre":"Edificio por la derecha",
+		"desc":"Vista trasera del edificio de informática",
+		"imagen":  "./images/piso00/EDINFO_0_16.jpg",
+		"botones":[{"nom":"volver","escenaDestino":9,"porx":"20%","pory":"70%"}],
+		"info": []
 	}
 ]

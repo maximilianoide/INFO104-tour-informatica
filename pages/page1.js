@@ -23,11 +23,11 @@ export async function getServerSideProps(context) {
 
 export default function Page1({ data }) {
   return (
-    <Layout pageId="page1">
+    <div className="container">
       <Head>
-        <title>Perro Panson</title>
+        <title>Tour Informatica</title>
       </Head>
       <Escena escenas={data}></Escena>
-    </Layout>
+    </div>
   );
 }
