@@ -4,7 +4,7 @@
 		"nombre":"Hall",
 		"desc":"La entrada al edificio de informática",
 		"imagen": "./images/piso01/EDINFO_1_01.jpg",
-		"botones":[{"nom":"Escaleras","escenaDestino":0,"porx":"55%","pory":"60%"},
+		"botones":[{"nom":"Escaleras","escenaDestino":14,"porx":"55%","pory":"60%"},
 			{"nom":"Hall","escenaDestino":1,"porx":"80%","pory":"70%"},
 			{"nom":"Hall","escenaDestino":7,"porx":"20%","pory":"80%"},
 		{"nom":"salir","escenaDestino":10,"porx":"55%","pory":"95%"}],
@@ -124,5 +124,51 @@
 		"imagen":  "./images/piso00/EDINFO_0_16.jpg",
 		"botones":[{"nom":"volver","escenaDestino":9,"porx":"20%","pory":"70%"}],
 		"info": []
+	},
+	{
+		"id":14,
+		"nombre":"Escaleras",
+		"desc":"Escaleras que conectan el primer piso con el segundo piso",
+		"imagen":  "./images/piso01/EDINFO_1_09.jpg",
+		"botones":[{"nom":"Primer piso","escenaDestino":0,"porx":"50%","pory":"90%"},
+			{"nom":"Segundo piso","escenaDestino":15,"porx":"50%","pory":"40%"}],
+		"info": []
+	},
+	{
+		"id":15,
+		"nombre":"Pasillo",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_01.jpg",
+		"botones":[{"nom":"escaleras","escenaDestino":14,"porx":"90%","pory":"90%"},
+			{"nom":"pasillo","escenaDestino":16,"porx":"59%","pory":"50%"}],
+		"info": []
+	},
+	{
+		"id":16,
+		"nombre":"Pasillo",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_02.jpg",
+		"botones":[{"nom":"pasillo","escenaDestino":15,"porx":"50%","pory":"50%"},
+			{"nom":"pasillo","escenaDestino":17,"porx":"10%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":17,
+		"nombre":"Pasillo",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_04.jpg",
+		"botones":[{"nom":"escaleras","escenaDestino":18,"porx":"75%","pory":"50%"},
+			{"nom":"pasillo","escenaDestino":16,"porx":"90%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":18,
+		"nombre":"Escaleras",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_07.jpg",
+		"botones":[{"nom":"Subir","escenaDestino":18,"porx":"75%","pory":"50%"},
+			{"nom":"Bajar","escenaDestino":17,"porx":"50%","pory":"90%"}],
+		"info": []
 	}
+
 ]
