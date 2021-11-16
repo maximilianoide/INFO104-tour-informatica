@@ -199,7 +199,7 @@
 			{"nom":"cafeteria","escenaDestino":28,"porx":"20%","pory":"50%"},
 			{"nom":"izquierda","escenaDestino":23,"porx":"40%","pory":"50%"},
 			{"nom":"derecha","escenaDestino":22,"porx":"60%","pory":"50%"}],
-		"info": []
+		"info": [{"desc":"Oficina del profesor Jorge Morales","porx":"55%","pory":"30%"}]
 	},
 	{
 		"id":22,
@@ -208,7 +208,11 @@
 		"imagen":  "./images/piso03/EDINFO_3_03.jpg",
 		"botones":[{"nom":"pasillo izquierdo","escenaDestino":23,"porx":"20%","pory":"70%"},
 			{"nom":"volver","escenaDestino":21,"porx":"50%","pory":"90%"}],
-		"info": []
+		"info": [{"desc":"Oficina del profesor Juan Salazar ","porx":"25%","pory":"50%"},
+			{"desc":"Oficina de los profesores Jorge Maturana y Mauricio Ruiz-Tagle","porx":"44%","pory":"40%"},
+			{"desc":"Oficina del profesor Daniel Guerra","porx":"50%","pory":"35%"},
+			{"desc":"Oficina de profesores adjuntos","porx":"42%","pory":"40%"},
+			{"desc":"Cuadro de Ada Lovelace","porx":"35%","pory":"30%"}]
 	},
 	{
 		"id":23,
@@ -218,7 +222,8 @@
 		"botones":[{"nom":"pasillo derecho","escenaDestino":22,"porx":"80%","pory":"70%"},
 			{"nom":"volver","escenaDestino":21,"porx":"50%","pory":"90%"},
 			{"nom":"sala Toro Bayo","escenaDestino":24,"porx":"25%","pory":"60%"}],
-		"info": []
+		"info": [{"desc":"Dirección","porx":"50%","pory":"40%"},
+			{"desc":"Cuadro de John Von Neumann","porx":"65%","pory":"35%"}]
 	},
 	{
 		"id":24,
@@ -257,7 +262,8 @@
 		"desc":"Vista bonita desde la ventana uwu",
 		"imagen":  "./images/piso03/EDINFO_3_09.jpg",
 		"botones":[{"nom":"volver","escenaDestino":25,"porx":"50%","pory":"90%"}],
-		"info": []
+		"info": [{"desc":"Edificio 9000","porx":"70%","pory":"30%"},
+			{"desc":"Edificio 8000","porx":"10%","pory":"35%"}]
 	},
 	{
 		"id":28,
@@ -297,7 +303,7 @@
 			{"nom":"cafeteria","escenaDestino":28,"porx":"80%","pory":"50%"},
 			{"nom":"izquierda","escenaDestino":35,"porx":"40%","pory":"40%"},
 			{"nom":"derecha","escenaDestino":32,"porx":"60%","pory":"40%"}],
-		"info": []
+		"info": [{"desc":"Oficina del profesor Raimundo Vega","porx":"48%","pory":"30%"}]
 	},
 	{
 		"id":32,
@@ -308,7 +314,10 @@
 			{"nom":"sala toro bayo","escenaDestino":33,"porx":"80%","pory":"50%"},
 			{"nom":"pasillo izquierdo","escenaDestino":35,"porx":"10%","pory":"65%"},
 			{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"}],
-		"info": []
+		"info": [{"desc":"Oficina de la profesora Maria Eliana de la Maza","porx":"33%","pory":"40%"},
+			{"desc":"Mural tercer piso","porx":"10%","pory":"10%"},
+			{"desc":"Cuadro de Alan Turing","porx":"40%","pory":"30%"},
+			{"desc":"Oficina del profesor Luis Alvarez","porx":"42%","pory":"40%"}]
 	},
 	{
 		"id":33,
@@ -328,7 +337,8 @@
 		"imagen":  "./images/piso03/EDINFO_3_17.jpg",
 		"botones":[{"nom":"volver","escenaDestino":32,"porx":"50%","pory":"90%"},
 			{"nom":"salida de emergencia","escenaDestino":34,"porx":"50%","pory":"50%"}],
-		"info": []
+		"info": [{"desc":"Oficina del profesor Erick Araya <3","porx":"30%","pory":"50%"},
+			{"desc":"Mueble de vidrio con revistas de informática","porx":"90%","pory":"50%"}]
 	},
 	{
 		"id":35,
@@ -338,7 +348,8 @@
 		"botones":[{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"},
 			{"nom":"pasillo derecho","escenaDestino":32,"porx":"90%","pory":"80%"},
 			{"nom":"avanzar","escenaDestino":36,"porx":"50%","pory":"50%"}],
-		"info": []
+		"info": [{"desc":"Cuadro de Charles Babbage","porx":"78%","pory":"32%"},
+			{"desc":"Oficina del profesor Pablo Huijse","porx":"66%","pory":"35%"}]
 	},
 	{
 		"id":36,
@@ -346,7 +357,10 @@
 		"desc":"Pasillo izquierdo mano izquierda fondo",
 		"imagen":  "./images/piso03/EDINFO_3_19.jpg",
 		"botones":[{"nom":"volver","escenaDestino":35,"porx":"50%","pory":"90%"}],
-		"info": []
+		"info": [{"desc":"Cuadro de Edsger Dijkstra","porx":"90%","pory":"45%"},
+			{"desc":"Oficina de la profesora y jefa de carrera Marianna Villarroel","porx":"50%","pory":"42%"},
+			{"desc":"Oficina del Cristobal Navarro","porx":"63%","pory":"42%"},
+			{"desc":"Oficina de los profesores Hector Ferrada y Matthieu Vernier","porx":"60%","pory":"42%"}]
 	}
 
 
