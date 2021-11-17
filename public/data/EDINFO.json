@@ -4,7 +4,7 @@
 		"nombre":"Hall",
 		"desc":"La entrada al edificio de informática",
 		"imagen": "./images/piso01/EDINFO_1_01.jpg",
-		"botones":[{"nom":"Escaleras","escenaDestino":0,"porx":"55%","pory":"60%"},
+		"botones":[{"nom":"Escaleras","escenaDestino":14,"porx":"55%","pory":"60%"},
 			{"nom":"Hall","escenaDestino":1,"porx":"80%","pory":"70%"},
 			{"nom":"Hall","escenaDestino":7,"porx":"20%","pory":"80%"},
 		{"nom":"salir","escenaDestino":10,"porx":"55%","pory":"95%"}],
@@ -124,5 +124,271 @@
 		"imagen":  "./images/piso00/EDINFO_0_16.jpg",
 		"botones":[{"nom":"volver","escenaDestino":9,"porx":"20%","pory":"70%"}],
 		"info": []
+	},
+	{
+		"id":14,
+		"nombre":"Escaleras",
+		"desc":"Escaleras que conectan el primer piso con el segundo piso",
+		"imagen":  "./images/piso01/EDINFO_1_09.JPG",
+		"botones":[{"nom":"Primer piso","escenaDestino":0,"porx":"50%","pory":"90%"},
+			{"nom":"Segundo piso","escenaDestino":15,"porx":"50%","pory":"40%"}],
+		"info": []
+	},
+	{
+		"id":15,
+		"nombre":"Pasillo",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_01.JPG",
+		"botones":[{"nom":"escaleras","escenaDestino":14,"porx":"90%","pory":"90%"},
+			{"nom":"pasillo","escenaDestino":16,"porx":"80%","pory":"50%"},
+			{"nom": "Lab. Mancera", "escenaDestino":38,"porx":"50%","pory":"40%"}],
+		"info": []
+	},
+	{
+		"id":16,
+		"nombre":"Pasillo",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_02.JPG",
+		"botones":[{"nom":"pasillo","escenaDestino":15,"porx":"50%","pory":"50%"},
+			{"nom":"pasillo","escenaDestino":17,"porx":"10%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":17,
+		"nombre":"Pasillo",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_04.JPG",
+		"botones":[{"nom":"escaleras","escenaDestino":18,"porx":"75%","pory":"50%"},
+			{"nom":"pasillo","escenaDestino":16,"porx":"90%","pory":"90%"},
+			{"nom":"pasillo","escenaDestino":37,"porx":"20%","pory":"60%"}],
+		"info": []
+	},
+	{
+		"id":18,
+		"nombre":"Escaleras",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_07.JPG",
+		"botones":[{"nom":"Subir","escenaDestino":19,"porx":"75%","pory":"50%"},
+			{"nom":"Bajar","escenaDestino":17,"porx":"50%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":19,
+		"nombre":"Escaleras",
+		"desc":"Pasillo del segundo piso, subiendo al tercer piso",
+		"imagen":  "./images/piso02/EDINFO_2_08.JPG",
+		"botones":[{"nom":"Subir","escenaDestino":20,"porx":"50%","pory":"50%"},
+			{"nom":"Bajar","escenaDestino":18,"porx":"50%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":20,
+		"nombre":"Pasillo",
+		"desc":"Pasillo del tercer piso",
+		"imagen":  "./images/piso03/EDINFO_3_01.JPG",
+		"botones":[{"nom":"izquierda","escenaDestino":31,"porx":"20%","pory":"50%"},
+				{"nom":"derecha","escenaDestino":21, "porx":"80%","pory":"50%"},
+				{"nom":"Bajar","escenaDestino":18,"porx":"80%","pory":"90%"},
+				{"nom":"cafeteria","escenaDestino":28,"porx":"50%","pory":"50%"}],
+		"info": []
+	},
+	{
+		"id":21,
+		"nombre":"pasillo",
+		"desc":"Pasillo del tercer piso",
+		"imagen":  "./images/piso03/EDINFO_3_02.JPG",
+		"botones":[{"nom":"entrada","escenaDestino":20,"porx":"60%","pory":"75%"},
+			{"nom":"cafeteria","escenaDestino":28,"porx":"20%","pory":"50%"},
+			{"nom":"izquierda","escenaDestino":23,"porx":"40%","pory":"50%"},
+			{"nom":"derecha","escenaDestino":22,"porx":"60%","pory":"50%"}],
+		"info": [{"desc":"Oficina del profesor Jorge Morales","porx":"55%","pory":"30%"}]
+	},
+	{
+		"id":22,
+		"nombre":"pasillo",
+		"desc":"Pasillo derecho a mano izquierda del tercer piso",
+		"imagen":  "./images/piso03/EDINFO_3_03.JPG",
+		"botones":[{"nom":"pasillo izquierdo","escenaDestino":23,"porx":"20%","pory":"70%"},
+			{"nom":"volver","escenaDestino":21,"porx":"50%","pory":"90%"}],
+		"info": [{"desc":"Oficina del profesor Juan Salazar ","porx":"25%","pory":"50%"},
+			{"desc":"Oficina de los profesores Jorge Maturana y Mauricio Ruiz-Tagle","porx":"44%","pory":"40%"},
+			{"desc":"Oficina del profesor Daniel Guerra","porx":"50%","pory":"35%"},
+			{"desc":"Oficina de profesores adjuntos","porx":"42%","pory":"40%"},
+			{"desc":"Cuadro de Ada Lovelace","porx":"35%","pory":"30%"}]
+	},
+	{
+		"id":23,
+		"nombre":"pasillo",
+		"desc":"Pasillo izquierdo a mano izquierda del tercer piso",
+		"imagen":  "./images/piso03/EDINFO_3_04.JPG",
+		"botones":[{"nom":"pasillo derecho","escenaDestino":22,"porx":"80%","pory":"70%"},
+			{"nom":"volver","escenaDestino":21,"porx":"50%","pory":"90%"},
+			{"nom":"sala Toro Bayo","escenaDestino":24,"porx":"25%","pory":"60%"}],
+		"info": [{"desc":"Dirección","porx":"50%","pory":"40%"},
+			{"desc":"Cuadro de John Von Neumann","porx":"65%","pory":"35%"}]
+	},
+	{
+		"id":24,
+		"nombre":"Sala Toro Bayo",
+		"desc":"Sala Toro Bayo entrada derecha",
+		"imagen":  "./images/piso03/EDINFO_3_06.JPG",
+		"botones":[{"nom":"Cafeteria","escenaDestino":28,"porx":"25%","pory":"70%"},
+			{"nom":"volver","escenaDestino":23,"porx":"50%","pory":"90%"},
+			{"nom":"Centro","escenaDestino":25,"porx":"80%","pory":"70%"},
+			{"nom":"Entrada izquierda","escenaDestino":33,"porx":"50%","pory":"50%"}],
+		"info": []
+	},
+	{
+		"id":25,
+		"nombre":"Sala Toro Bayo",
+		"desc":"Sala Toro Bayo centro",
+		"imagen":  "./images/piso03/EDINFO_3_07.JPG",
+		"botones":[{"nom":"entrada izquierda","escenaDestino":33,"porx":"25%","pory":"70%"},
+			{"nom":"cafeteria","escenaDestino":28,"porx":"50%","pory":"90%"},
+			{"nom":"entrada derecha","escenaDestino":24,"porx":"80%","pory":"70%"},
+			{"nom":"avanzar","escenaDestino":26,"porx":"50%","pory":"50%"}],
+		"info": []
+	},
+	{
+		"id":26,
+		"nombre":"Sala Toro Bayo",
+		"desc":"Sala Toro Bayo centro",
+		"imagen":  "./images/piso03/EDINFO_3_08.JPG",
+		"botones":[{"nom":"ventana","escenaDestino":27,"porx":"50%","pory":"20%"},
+			{"nom":"volver","escenaDestino":25,"porx":"50%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":27,
+		"nombre":"Ventana",
+		"desc":"Vista bonita desde la ventana uwu",
+		"imagen":  "./images/piso03/EDINFO_3_09.JPG",
+		"botones":[{"nom":"volver","escenaDestino":25,"porx":"50%","pory":"90%"}],
+		"info": [{"desc":"Edificio 9000","porx":"70%","pory":"30%"},
+			{"desc":"Edificio 8000","porx":"10%","pory":"35%"}]
+	},
+	{
+		"id":28,
+		"nombre":"cafeteria",
+		"desc":"Entrada cafeteria",
+		"imagen":  "./images/piso03/EDINFO_3_10.JPG",
+		"botones":[{"nom":"izquerda","escenaDestino":29,"porx":"10%","pory":"50%"},
+			{"nom":"derecha","escenaDestino":30,"porx":"90%","pory":"50%"},
+			{"nom":"sala toro bayo","escenaDestino":25,"porx":"50%","pory":"50%"},
+			{"nom":"volver","escenaDestino":20,"porx":"50%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":29,
+		"nombre":"cafeteria",
+		"desc":"Lado izquierdo",
+		"imagen":  "./images/piso03/EDINFO_3_11.JPG",
+		"botones":[{"nom":"volver","escenaDestino":28,"porx":"10%","pory":"70%"},
+			{"nom":"sala toro bayo","escenaDestino":25,"porx":"90%","pory":"70%"}],
+		"info": []
+	},
+	{
+		"id":30,
+		"nombre":"cafeteria",
+		"desc":"Lado derecho",
+		"imagen":  "./images/piso03/EDINFO_3_12.JPG",
+		"botones":[{"nom":"volver","escenaDestino":28,"porx":"90%","pory":"70%"},
+			{"nom":"sala toro bayo","escenaDestino":25,"porx":"10%","pory":"70%"}],
+		"info": []
+	},
+	{
+		"id":31,
+		"nombre":"pasillo",
+		"desc":"Pasillo del tercer piso",
+		"imagen":  "./images/piso03/EDINFO_3_14.JPG",
+		"botones":[{"nom":"entrada","escenaDestino":20,"porx":"40%","pory":"60%"},
+			{"nom":"cafeteria","escenaDestino":28,"porx":"80%","pory":"50%"},
+			{"nom":"izquierda","escenaDestino":35,"porx":"40%","pory":"40%"},
+			{"nom":"derecha","escenaDestino":32,"porx":"60%","pory":"40%"}],
+		"info": [{"desc":"Oficina del profesor Raimundo Vega","porx":"48%","pory":"30%"}]
+	},
+	{
+		"id":32,
+		"nombre":"pasillo",
+		"desc":"Pasillo izquierdo mano derecha",
+		"imagen":  "./images/piso03/EDINFO_3_15.JPG",
+		"botones":[{"nom":"avanzar","escenaDestino":34,"porx":"50%","pory":"40%"},
+			{"nom":"sala toro bayo","escenaDestino":33,"porx":"80%","pory":"50%"},
+			{"nom":"pasillo izquierdo","escenaDestino":35,"porx":"10%","pory":"65%"},
+			{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"}],
+		"info": [{"desc":"Oficina de la profesora Maria Eliana de la Maza","porx":"33%","pory":"40%"},
+			{"desc":"Mural tercer piso","porx":"10%","pory":"10%"},
+			{"desc":"Cuadro de Alan Turing","porx":"40%","pory":"30%"},
+			{"desc":"Oficina del profesor Luis Alvarez","porx":"42%","pory":"40%"}]
+	},
+	{
+		"id":33,
+		"nombre":"Sala Toro Bayo",
+		"desc":"Sala Toro Bayo entrada izquierda",
+		"imagen":  "./images/piso03/EDINFO_3_16.JPG",
+		"botones":[{"nom":"volver","escenaDestino":32,"porx":"50%","pory":"90%"},
+			{"nom":"cafeteria","escenaDestino":28,"porx":"70%","pory":"50%"},
+			{"nom":"centro","escenaDestino":25,"porx":"30%","pory":"50%"},
+			{"nom":"entrada derecha","escenaDestino":24,"porx":"50%","pory":"50%"}],
+		"info": []
+	},
+	{
+		"id":34,
+		"nombre":"Pasillo izquierdo mano derecha fondo",
+		"desc":"Pasillo",
+		"imagen":  "./images/piso03/EDINFO_3_17.JPG",
+		"botones":[{"nom":"volver","escenaDestino":32,"porx":"50%","pory":"90%"},
+			{"nom":"salida de emergencia","escenaDestino":34,"porx":"50%","pory":"50%"}],
+		"info": [{"desc":"Oficina del profesor Erick Araya <3","porx":"30%","pory":"50%"},
+			{"desc":"Mueble de vidrio con revistas de informática","porx":"90%","pory":"50%"}]
+	},
+	{
+		"id":35,
+		"nombre":"Pasillo izquierdo mano izquierda",
+		"desc":"Pasillo izquierdo mano izquierda",
+		"imagen":  "./images/piso03/EDINFO_3_18.JPG",
+		"botones":[{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"},
+			{"nom":"pasillo derecho","escenaDestino":32,"porx":"90%","pory":"80%"},
+			{"nom":"avanzar","escenaDestino":36,"porx":"50%","pory":"50%"}],
+		"info": [{"desc":"Cuadro de Charles Babbage","porx":"78%","pory":"32%"},
+			{"desc":"Oficina del profesor Pablo Huijse","porx":"66%","pory":"35%"}]
+	},
+	{
+		"id":36,
+		"nombre":"Pasillo izquierdo mano izquierda fondo",
+		"desc":"Pasillo izquierdo mano izquierda fondo",
+		"imagen":  "./images/piso03/EDINFO_3_19.JPG",
+		"botones":[{"nom":"volver","escenaDestino":35,"porx":"50%","pory":"90%"}],
+		"info": [{"desc":"Cuadro de Edsger Dijkstra","porx":"90%","pory":"45%"},
+			{"desc":"Oficina de la profesora y jefa de carrera Marianna Villarroel","porx":"50%","pory":"42%"},
+			{"desc":"Oficina del Cristobal Navarro","porx":"63%","pory":"42%"},
+			{"desc":"Oficina de los profesores Hector Ferrada y Matthieu Vernier","porx":"60%","pory":"42%"}]
+	},
+	{
+		"id":37,
+		"nombre":"Pasillo",
+		"desc":"Pasillo del segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_05.JPG",
+		"botones":[{"nom":"volver","escenaDestino":17,"porx":"50%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":38,
+		"nombre":"Lab. Mancera",
+		"desc":"Pasillo del segundo piso, entrada al Lab. Mancera",
+		"imagen":  "./images/piso02/EDINFO_2_06.JPG",
+		"botones":[{"nom":"Entrar","escenaDestino":39,"porx":"50%","pory":"40%"},
+			{"nom":"volver","escenaDestino":15,"porx":"50%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":39,
+		"nombre":"Lab. Mancera",
+		"desc":"Laboratorio Mancera",
+		"imagen":  "./images/piso02/EDINFO_2_10.JPG",
+		"botones":[{"nom":"volver","escenaDestino":38,"porx":"50%","pory":"90%"}],
+		"info": []
 	}
+
+
 ]
