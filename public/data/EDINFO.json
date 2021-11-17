@@ -176,7 +176,7 @@
 		"id":19,
 		"nombre":"Escaleras",
 		"desc":"Pasillo del segundo piso, subiendo al tercer piso",
-		"imagen":  "./images/piso02/EDINFO_2_08.JPG",
+		"imagen":  "./images/piso02/EDINFO_2_08.jpg",
 		"botones":[{"nom":"Subir","escenaDestino":20,"porx":"50%","pory":"50%"},
 			{"nom":"Bajar","escenaDestino":18,"porx":"50%","pory":"90%"}],
 		"info": []
