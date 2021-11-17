@@ -141,7 +141,8 @@
 		"imagen":  "./images/piso02/EDINFO_2_01.JPG",
 		"botones":[{"nom":"escaleras","escenaDestino":14,"porx":"90%","pory":"90%"},
 			{"nom":"pasillo","escenaDestino":16,"porx":"80%","pory":"50%"},
-			{"nom": "Lab. Mancera", "escenaDestino":38,"porx":"50%","pory":"40%"}],
+			{"nom": "Lab. Mancera", "escenaDestino":38,"porx":"50%","pory":"40%"},
+		{"nom": "lado izquierdo", "escenaDestino":40,"porx":"5%","pory":"40%"}],
 		"info": []
 	},
 	{
@@ -388,7 +389,37 @@
 		"imagen":  "./images/piso02/EDINFO_2_10.JPG",
 		"botones":[{"nom":"volver","escenaDestino":38,"porx":"50%","pory":"90%"}],
 		"info": []
+	},
+	{
+		"id":40,
+		"nombre":"Pasillo lado izquierdo",
+		"desc":"Pasillo segundo piso",
+		"imagen":  "./images/piso02/EDINFO_2_02.JPG",
+		"botones":[{"nom":"volver","escenaDestino":15,"porx":"40%","pory":"60%"},
+			{"nom":"izquierda","escenaDestino":42,"porx":"50%","pory":"40%"},
+			{"nom":"derecha","escenaDestino":41,"porx":"75%","pory":"40%"}],
+		"info": []
+	},
+	{
+		"id":41,
+		"nombre":"Lab. Llancahue",
+		"desc":"Laboratorio Llancahue",
+		"imagen":  "./images/piso02/EDINFO_2_11.JPG",
+		"botones":[{"nom":"volver","escenaDestino":40,"porx":"50%","pory":"90%"},
+			{"nom":"izquierda","escenaDestino":42,"porx":"10%","pory":"40%"}],
+		"info": []
+	},
+	{
+		"id":42,
+		"nombre":"Sala Collico",
+		"desc":"Sala Collico",
+		"imagen":  "./images/piso02/EDINFO_2_12.JPG",
+		"botones":[{"nom":"volver","escenaDestino":40,"porx":"50%","pory":"90%"},
+			{"nom":"derecha","escenaDestino":41,"porx":"90%","pory":"50%"}],
+		"info": []
 	}
+	
+
 
 
 ]
