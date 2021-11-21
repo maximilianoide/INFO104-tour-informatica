@@ -45,7 +45,7 @@
 		"desc":"La entrada al edificio de informática",
 		"imagen":  "./images/piso01/EDINFO_1_05.JPG",
 		"botones":[{"nom":"Hall","escenaDestino":3,"porx":"51%","pory":"94%"}],
-		"info": []
+		"info": [{"desc":"Fotografías ganadoras de un concurso de fotografía","porx":"58%","pory":"25%"}]
 	},
 	{
 		"id":5,
@@ -162,7 +162,7 @@
 		"botones":[{"nom":"escaleras","escenaDestino":18,"porx":"75%","pory":"50%"},
 			{"nom":"pasillo","escenaDestino":16,"porx":"90%","pory":"90%"},
 			{"nom":"pasillo","escenaDestino":37,"porx":"20%","pory":"60%"}],
-		"info": []
+		"info": [{"desc":"Oficina profesor Christian Lazo","porx":"2%","pory":"35%"}]
 	},
 	{
 		"id":18,
@@ -339,8 +339,8 @@
 		"desc":"Pasillo",
 		"imagen":  "./images/piso03/EDINFO_3_17.jpg",
 		"botones":[{"nom":"volver","escenaDestino":32,"porx":"50%","pory":"90%"},
-			{"nom":"salida de emergencia","escenaDestino":34,"porx":"50%","pory":"50%"}],
-		"info": [{"desc":"Oficina del profesor Erick Araya <3","porx":"30%","pory":"50%"},
+			{"nom":"salida de emergencia","escenaDestino":47,"porx":"50%","pory":"50%"}],
+		"info": [{"desc":"Oficina del profesor Erick Araya","porx":"30%","pory":"50%"},
 			{"desc":"Mueble de vidrio con revistas de informática","porx":"90%","pory":"50%"}]
 	},
 	{
@@ -370,8 +370,9 @@
 		"nombre":"Pasillo",
 		"desc":"Pasillo del segundo piso",
 		"imagen":  "./images/piso02/EDINFO_2_05.JPG",
-		"botones":[{"nom":"volver","escenaDestino":17,"porx":"50%","pory":"90%"}],
-		"info": []
+		"botones":[{"nom":"volver","escenaDestino":17,"porx":"50%","pory":"90%"},
+			{"nom":"avanzar","escenaDestino":43,"porx":"55%","pory":"60%"}],
+		"info": [{"desc":"Oficina de la profesora Tania Letelier","porx":"5%","pory":"35%"}]
 	},
 	{
 		"id":38,
@@ -417,8 +418,117 @@
 		"botones":[{"nom":"volver","escenaDestino":40,"porx":"50%","pory":"90%"},
 			{"nom":"derecha","escenaDestino":41,"porx":"90%","pory":"50%"}],
 		"info": []
+	},
+	{
+		"id":43,
+		"nombre":"Pasillo fondo",
+		"desc":"Pasillo fondo",
+		"imagen":  "./images/piso02/EDINFO_2_13.JPG",
+		"botones":[{"nom":"volver","escenaDestino":37,"porx":"50%","pory":"90%"},
+			{"nom":"Sala Kelluwen","escenaDestino":44,"porx":"75%","pory":"55%"}],
+		"info": [{"desc":"Oficina del profesor Cristian Olivares","porx":"33%","pory":"43%"}]
+	},
+	{
+		"id":44,
+		"nombre":"Sala Kelluwen",
+		"desc":"Sala kelluwen entrada",
+		"imagen":  "./images/piso02/EDINFO_2_14.JPG",
+		"botones":[{"nom":"volver","escenaDestino":43,"porx":"50%","pory":"90%"},
+			{"nom":"avanzar","escenaDestino":45,"porx":"50%","pory":"55%"}],
+		"info": []
+	},
+	{
+		"id":45,
+		"nombre":"Sala Kelluwen",
+		"desc":"Sala kelluwen fondo",
+		"imagen":  "./images/piso02/EDINFO_2_15.JPG",
+		"botones":[{"nom":"volver","escenaDestino":44,"porx":"50%","pory":"90%"},
+			{"nom":"voltear","escenaDestino":46,"porx":"50%","pory":"45%"}],
+		"info": []
+	},
+	{
+		"id":46,
+		"nombre":"Sala Kelluwen",
+		"desc":"Sala kelluwen desde el fondo",
+		"imagen":  "./images/piso02/EDINFO_2_16.JPG",
+		"botones":[{"nom":"voltear","escenaDestino":45,"porx":"50%","pory":"90%"},
+			{"nom":"entrada","escenaDestino":44,"porx":"50%","pory":"45%"}],
+		"info": []
+	},
+	{
+		"id":47,
+		"nombre":"Salida de emergencia",
+		"desc":"Salida de emergencia desde el tercer piso",
+		"imagen":  "./images/esc_emer/EDINFO_SE_01.JPG",
+		"botones":[{"nom":"volver","escenaDestino":34,"porx":"50%","pory":"90%"},
+			{"nom":"mirar","escenaDestino":48,"porx":"30%","pory":"50%"},
+			{"nom":"bajar","escenaDestino":50,"porx":"90%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":48,
+		"nombre":"Salida de emergencia",
+		"desc":"Salida de emergencia desde el tercer piso",
+		"imagen":  "./images/esc_emer/EDINFO_SE_02.JPG",
+		"botones":[{"nom":"volver","escenaDestino":47,"porx":"50%","pory":"90%"},
+			{"nom":"Saltar","escenaDestino":49,"porx":"50%","pory":"75%"}],
+		"info": [{"desc":"Edificio 8000","porx":"80%","pory":"28%"},
+			{"desc":"Aqui se guardan bicicletas","porx":"40%","pory":"70%"}]
+	},
+	{
+		"id":49,
+		"nombre":"Game Over",
+		"desc":"saltar desde el tercer piso no es una buena idea",
+		"imagen":  "./images/esc_emer/EDINFO_SE_08.JPG",
+		"botones":[{"nom":"reaparecer","escenaDestino":8,"porx":"50%","pory":"90%"}],
+		"info": []
+		
+	},
+	{
+		"id":50,
+		"nombre":"Salida de emergencia",
+		"desc":"Salida de emergencia escalera del tercer piso",
+		"imagen":  "./images/esc_emer/EDINFO_SE_03.JPG",
+		"botones":[{"nom":"volver","escenaDestino":47,"porx":"50%","pory":"90%"},
+			{"nom":"bajar","escenaDestino":51,"porx":"50%","pory":"60%"}],
+		"info": []
+	},
+	{
+		"id":51,
+		"nombre":"Salida de emergencia",
+		"desc":"Salida de emergencia escalera desde el tercer piso",
+		"imagen":  "./images/esc_emer/EDINFO_SE_04.JPG",
+		"botones":[{"nom":"volver","escenaDestino":50,"porx":"50%","pory":"90%"},
+			{"nom":"bajar","escenaDestino":52,"porx":"50%","pory":"60%"}],
+		"info": []
+	},
+	{
+		"id":52,
+		"nombre":"Salida de emergencia",
+		"desc":"Salida de emergencia escalera desde el segundo piso",
+		"imagen":  "./images/esc_emer/EDINFO_SE_05.JPG",
+		"botones":[{"nom":"volver","escenaDestino":51,"porx":"10%","pory":"90%"},
+			{"nom":"bajar","escenaDestino":53,"porx":"50%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":53,
+		"nombre":"Salida de emergencia",
+		"desc":"Salida de emergencia escalera desde el tercer piso",
+		"imagen":  "./images/esc_emer/EDINFO_SE_06.JPG",
+		"botones":[{"nom":"volver","escenaDestino":52,"porx":"50%","pory":"90%"},
+			{"nom":"bajar","escenaDestino":54,"porx":"50%","pory":"60%"}],
+		"info": []
+	},
+	{
+		"id":54,
+		"nombre":"Salida de emergencia",
+		"desc":"Salida de emergencia escalera desde el tercer piso",
+		"imagen":  "./images/esc_emer/EDINFO_SE_07.JPG",
+		"botones":[{"nom":"volver","escenaDestino":53,"porx":"50%","pory":"90%"},
+			{"nom":"bajar","escenaDestino":10,"porx":"50%","pory":"60%"}],
+		"info": []
 	}
-	
 
 
 
