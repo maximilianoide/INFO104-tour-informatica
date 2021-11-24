@@ -10,15 +10,10 @@ const Index = () => {
       </Head>
 
       <main>
-        <Image
-          className="ImgInicio"
-          src="/images/edificio.png"
-          height={294} // Desired size with correct aspect ratio
-          width={470} // Desired size with correct aspect ratio
-          alt="edificio"
-        />
+        
+    
 
-        <h1 className="title">TOUR POR EL EDIFICIO DE INFORMÁTICA</h1>
+        <h1 className="title">Tour por el Edificio de Informática</h1>
         <div className="grid">
           <Link
             href={{
@@ -32,6 +27,7 @@ const Index = () => {
       </main>
     </div>
   );
+  
 };
 
 export default Index;
