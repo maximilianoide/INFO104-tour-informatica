@@ -26,6 +26,10 @@ const Escena = ({ escenas }) => {
         }}
         alt={escenaActual.nombre}
       >
+        <div className="poroto">
+          <h1 className="nom">{escenaActual.nombre}</h1>
+          <div classname="desc">{escenaActual.desc}</div>
+        </div>
         {escenaActual.botones.map((boton, index) => (
           <button
             className="botonMovedor"
@@ -63,10 +67,6 @@ const Escena = ({ escenas }) => {
             </PopoverContent>
           </Popover>
         ))}
-      </div>
-      <div className="tabla">
-        <div className="nom">{escenaActual.nombre}</div>
-        <div className="desc">{escenaActual.desc}</div>
       </div>
       {/* <div id="tabla">
         <table id="tabla2" border="2">
