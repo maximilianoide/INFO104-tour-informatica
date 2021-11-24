@@ -2,7 +2,7 @@
 
 html,
 body {
-  background-color: #d8bdbd;
+  background-color: red;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -14,13 +14,14 @@ body {
 }
 
 .container {
-  background-image: url(https://cdn.discordapp.com/attachments/889893429889339472/913104134058680330/edificio.jpg);
+  background-image: url(https://media.discordapp.net/attachments/889893429889339472/913190280063246356/edificiogris_1.jpg?width=711&height=473);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: black;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -118,6 +119,7 @@ a {
 .title {
   font-family: "Times New Roman", Times, serif;
   color: rgb(255, 255, 255);
+  -webkit-text-stroke: 2px black;
   margin: 0;
   line-height: 3.5;
   font-size: 5rem;
@@ -197,28 +199,29 @@ code {
 }
 
 .botonMovedor {
+  transition: opacity 1s;
   position: absolute;
   opacity: 0.6;
   color: #eaeaea;
-  background-color: #d8bdbd;
   font-size: 1rem;
   padding: 0.5rem 0.5rem;
-  border: none;
+  border: 5px;
+  border-style: inset;
+  border-color: #eaeaea;
   cursor: pointer;
-  border-radius: 4rem;
+  border-radius: 1rem;
   text-align: center;
   transform: translate(-50%, -50%);
 }
 #imagen {
-  border: solid hsla(318, 78%, 25%, 0.527);
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: 64rem;
-  height: 44.8rem;
+  position: relative;
+  width: 1000px;
+  height: 666px;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 1rem;
+  margin-right: 1rem;
+  color: white;
+  text-align: center;
 }
 /*@media (max-width: 768px) {
   #imagen {
@@ -246,33 +249,47 @@ td {
 }
 .nom {
   position: relative;
-  font-size: 4rem;
+  font-size: 2em;
   color: #eaeaea;
   text-align: center;
-  background-color: #6b4747;
-  border-radius: 4rem;
-  width: 25rem;
-  padding: 0.5rem 0.5rem;
+  margin-top: 1rem;
 }
 .desc {
-  margin-top: 1rem;
   position: relative;
-  font-size: 1.5rem;
-  color: #eaeaea;
-  text-align: center;
-  background-color: #6b4747;
-  border-radius: 4rem;
-  width: 25rem;
-  padding: 0.5rem 0.5rem;
+  font-size: 1em;
+  color: transparent;
+  margin: 5%;
+  opacity: 0;
+
+  transition: opacity 2s, color 2s;
 }
 .tabla {
-  position: absolute;
-  top: 1rem;
-  left: 67rem;
+  position: relative;
 }
-
-paginic {
-  background-image: url(https://cdn.discordapp.com/attachments/833033398657875981/835578102356377630/hikohime.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+.poroto {
+  opacity: 0.5;
+  z-index: 1000;
+  height: 10rem;
+  width: 100%;
+  color: rgb(122, 122, 122);
+  background-image: linear-gradient(to bottom, black, transparent);
+  transition: height 1s, color 2s, opacity 1s, font-size 2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.poroto:hover {
+  opacity: 1;
+  color: white;
+  height: 50%;
+  font-size: 2rem;
+}
+.poroto:hover ~ .botonMovedor {
+  opacity: 0;
+}
+.poroto:hover .desc {
+  color: #eaeaea;
+  opacity: 1;
+  text-shadow: none;
 }
