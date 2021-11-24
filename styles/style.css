@@ -192,6 +192,7 @@ code {
 }
 
 .botonMovedor {
+  transition: opacity 1s;
   position: absolute;
   opacity: 0.6;
   color: #eaeaea;
@@ -249,6 +250,7 @@ td {
   position: relative;
   font-size: 1em;
   color: #eaeaea;
+  margin: 5%;
 }
 .tabla {
   position: relative;
@@ -271,4 +273,7 @@ td {
   color: white;
   height: 50%;
   font-size: 2rem;
+}
+.poroto:hover ~ .botonMovedor {
+  opacity: 0;
 }
