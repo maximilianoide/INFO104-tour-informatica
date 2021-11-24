@@ -28,7 +28,7 @@ const Escena = ({ escenas }) => {
       >
         <div className="poroto">
           <h1 className="nom">{escenaActual.nombre}</h1>
-          <div classname="desc">{escenaActual.desc}</div>
+          <div className="desc">{escenaActual.desc}</div>
         </div>
         {escenaActual.botones.map((boton, index) => (
           <button

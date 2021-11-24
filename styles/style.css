@@ -245,12 +245,16 @@ td {
   font-size: 2em;
   color: #eaeaea;
   text-align: center;
+  margin-top: 1rem;
 }
 .desc {
   position: relative;
   font-size: 1em;
-  color: #eaeaea;
+  color: transparent;
   margin: 5%;
+  opacity: 0;
+
+  transition: opacity 2s, color 2s;
 }
 .tabla {
   position: relative;
@@ -276,4 +280,9 @@ td {
 }
 .poroto:hover ~ .botonMovedor {
   opacity: 0;
+}
+.poroto:hover .desc {
+  color: #eaeaea;
+  opacity: 1;
+  text-shadow: none;
 }
