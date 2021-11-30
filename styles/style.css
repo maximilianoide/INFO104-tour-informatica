@@ -2,7 +2,7 @@
 
 html,
 body {
-  background-color: red;
+  background-color: black;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -214,7 +214,7 @@ code {
   text-align: center;
   transform: translate(-50%, -50%);
 }
-#imagen {
+.imagenEscena {
   position: relative;
   width: 1000px;
   height: 666px;

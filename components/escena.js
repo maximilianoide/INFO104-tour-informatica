@@ -21,7 +21,7 @@ const Escena = ({ escenas }) => {
   return (
     <>
       <div
-        id="imagen"
+        className="imagenEscena"
         style={{
           backgroundImage: "url('" + escenaActual.imagen + "')",
         }}
