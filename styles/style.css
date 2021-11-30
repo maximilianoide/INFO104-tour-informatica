@@ -194,6 +194,7 @@ code {
     flex-direction: column;
   }
 }
+
 .botonMovedor:hover {
   opacity: 1;
 }
@@ -243,6 +244,7 @@ td {
   overflow: hidden;
   outline: none;
   transform: translate(-50%, -50%);
+  transition: opacity 1s;
 }
 .botonInfo:hover {
   opacity: 1;
@@ -269,7 +271,7 @@ td {
 .poroto {
   opacity: 0.5;
   z-index: 1000;
-  height: 10rem;
+  height: 20%;
   width: 100%;
   color: rgb(122, 122, 122);
   background-image: linear-gradient(to bottom, black, transparent);
@@ -288,8 +290,24 @@ td {
 .poroto:hover ~ .botonMovedor {
   opacity: 0;
 }
+.poroto:hover ~ .infoPop {
+  opacity: 0;
+}
 .poroto:hover .desc {
   color: #eaeaea;
   opacity: 1;
   text-shadow: none;
+}
+.profesor {
+  border-radius: 1rem;
+  height: 160px;
+  width: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 320px;
 }

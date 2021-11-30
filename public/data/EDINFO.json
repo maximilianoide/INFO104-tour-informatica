@@ -162,7 +162,7 @@
 		"botones":[{"nom":"escaleras","escenaDestino":18,"porx":"75%","pory":"50%"},
 			{"nom":"pasillo","escenaDestino":16,"porx":"90%","pory":"90%"},
 			{"nom":"pasillo","escenaDestino":37,"porx":"20%","pory":"60%"}],
-		"info": [{"desc":"Oficina profesor Christian Lazo","porx":"2%","pory":"35%"}]
+		"info": [{"desc":"Oficina profesor Christian Lazo","porx":"2%","pory":"35%","img":["./images/professors/ChristianLazo.jpg"]}]
 	},
 	{
 		"id":18,
@@ -202,7 +202,7 @@
 			{"nom":"cafeteria","escenaDestino":28,"porx":"20%","pory":"50%"},
 			{"nom":"izquierda","escenaDestino":23,"porx":"40%","pory":"50%"},
 			{"nom":"derecha","escenaDestino":22,"porx":"60%","pory":"50%"}],
-		"info": [{"desc":"Oficina del profesor Jorge Morales","porx":"55%","pory":"30%"}]
+		"info": [{"desc":"Oficina del profesor Jorge Morales","porx":"55%","pory":"30%","img":["./images/professors/JorgeMorales.jpg"]}]
 	},
 	{
 		"id":22,
@@ -211,9 +211,9 @@
 		"imagen":  "./images/piso03/EDINFO_3_03.jpg",
 		"botones":[{"nom":"pasillo izquierdo","escenaDestino":23,"porx":"20%","pory":"70%"},
 			{"nom":"volver","escenaDestino":21,"porx":"50%","pory":"90%"}],
-		"info": [{"desc":"Oficina del profesor Juan Salazar ","porx":"25%","pory":"50%"},
-			{"desc":"Oficina de los profesores Jorge Maturana y Mauricio Ruiz-Tagle","porx":"44%","pory":"40%"},
-			{"desc":"Oficina del profesor Daniel Guerra","porx":"50%","pory":"35%"},
+		"info": [{"desc":"Oficina del profesor Juan Salazar ","porx":"25%","pory":"50%","img":["./images/professors/JuanSalazar.jpg"]},
+			{"desc":"Oficina de los profesores Jorge Maturana y Mauricio Ruiz-Tagle","porx":"44%","pory":"40%","img":["./images/professors/JorgeMaturana.jpeg","./images/professors/MauricioRuizTagle.jpg"]},
+			{"desc":"Oficina del profesor Daniel Guerra","porx":"50%","pory":"35%","img":["./images/professors/DanielGuerra.png"]},
 			{"desc":"Oficina de profesores adjuntos","porx":"42%","pory":"40%"},
 			{"desc":"Cuadro de Ada Lovelace","porx":"35%","pory":"30%"}]
 	},
@@ -306,7 +306,7 @@
 			{"nom":"cafeteria","escenaDestino":28,"porx":"80%","pory":"50%"},
 			{"nom":"izquierda","escenaDestino":35,"porx":"40%","pory":"40%"},
 			{"nom":"derecha","escenaDestino":32,"porx":"60%","pory":"40%"}],
-		"info": [{"desc":"Oficina del profesor Raimundo Vega","porx":"48%","pory":"30%"}]
+		"info": [{"desc":"Oficina del profesor Raimundo Vega","porx":"48%","pory":"30%","img":["./images/professors/RaimundoVega.jpg"]}]
 	},
 	{
 		"id":32,
@@ -317,10 +317,10 @@
 			{"nom":"sala toro bayo","escenaDestino":33,"porx":"80%","pory":"50%"},
 			{"nom":"pasillo izquierdo","escenaDestino":35,"porx":"10%","pory":"65%"},
 			{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"}],
-		"info": [{"desc":"Oficina de la profesora Maria Eliana de la Maza","porx":"33%","pory":"40%"},
+		"info": [{"desc":"Oficina de la profesora Maria Eliana de la Maza","porx":"33%","pory":"40%","img":["./images/professors/MariaElianaDeLaMaza.jpg"]},
 			{"desc":"Mural tercer piso","porx":"10%","pory":"10%"},
 			{"desc":"Cuadro de Alan Turing","porx":"40%","pory":"30%"},
-			{"desc":"Oficina del profesor Luis Alvarez","porx":"42%","pory":"40%"}]
+			{"desc":"Oficina del profesor Luis Alvarez","porx":"42%","pory":"40%","img":["./images/professors/LuisAlvarez.jpg"]}]
 	},
 	{
 		"id":33,
@@ -340,7 +340,7 @@
 		"imagen":  "./images/piso03/EDINFO_3_17.jpg",
 		"botones":[{"nom":"volver","escenaDestino":32,"porx":"50%","pory":"90%"},
 			{"nom":"salida de emergencia","escenaDestino":47,"porx":"50%","pory":"50%"}],
-		"info": [{"desc":"Oficina del profesor Erick Araya","porx":"30%","pory":"50%"},
+		"info": [{"desc":"Oficina del profesor Erick Araya","porx":"30%","pory":"50%","img":["./images/professors/ErickAraya.jpg"]},
 			{"desc":"Mueble de vidrio con revistas de informática","porx":"90%","pory":"50%"}]
 	},
 	{
@@ -352,7 +352,7 @@
 			{"nom":"pasillo derecho","escenaDestino":32,"porx":"90%","pory":"80%"},
 			{"nom":"avanzar","escenaDestino":36,"porx":"50%","pory":"50%"}],
 		"info": [{"desc":"Cuadro de Charles Babbage","porx":"78%","pory":"32%"},
-			{"desc":"Oficina del profesor Pablo Huijse","porx":"66%","pory":"35%"}]
+			{"desc":"Oficina del profesor Pablo Huijse","porx":"66%","pory":"35%","img":["./images/professors/PabloHuijse.jpeg"]}]
 	},
 	{
 		"id":36,
@@ -361,9 +361,9 @@
 		"imagen":  "./images/piso03/EDINFO_3_19.jpg",
 		"botones":[{"nom":"volver","escenaDestino":35,"porx":"50%","pory":"90%"}],
 		"info": [{"desc":"Cuadro de Edsger Dijkstra","porx":"90%","pory":"45%"},
-			{"desc":"Oficina de la profesora y jefa de carrera Marianna Villarroel","porx":"50%","pory":"42%"},
-			{"desc":"Oficina del Cristobal Navarro","porx":"63%","pory":"42%"},
-			{"desc":"Oficina de los profesores Hector Ferrada y Matthieu Vernier","porx":"60%","pory":"42%"}]
+			{"desc":"Oficina de la profesora y jefa de carrera Marianna Villarroel","porx":"50%","pory":"42%","img":["./images/professors/MariannaVillarroel.jpg"]},
+			{"desc":"Oficina del Cristobal Navarro","porx":"63%","pory":"42%","img":["./images/professors/CristobalNavarro.jpg"]},
+			{"desc":"Oficina de los profesores Hector Ferrada y Matthieu Vernier","porx":"60%","pory":"42%","img":["./images/professors/HectorFerrada.jpeg","./images/professors/MatthieuVernier.jpeg"]}]
 	},
 	{
 		"id":37,
@@ -372,7 +372,7 @@
 		"imagen":  "./images/piso02/EDINFO_2_05.JPG",
 		"botones":[{"nom":"volver","escenaDestino":17,"porx":"50%","pory":"90%"},
 			{"nom":"avanzar","escenaDestino":43,"porx":"55%","pory":"60%"}],
-		"info": [{"desc":"Oficina de la profesora Tania Letelier","porx":"5%","pory":"35%"}]
+		"info": [{"desc":"Oficina de la profesora Tania Letelier","porx":"5%","pory":"35%","img":["./images/professors/TaniaLetelier.jpg"]}]
 	},
 	{
 		"id":38,
@@ -426,7 +426,7 @@
 		"imagen":  "./images/piso02/EDINFO_2_13.JPG",
 		"botones":[{"nom":"volver","escenaDestino":37,"porx":"50%","pory":"90%"},
 			{"nom":"Sala Kelluwen","escenaDestino":44,"porx":"75%","pory":"55%"}],
-		"info": [{"desc":"Oficina del profesor Cristian Olivares","porx":"33%","pory":"43%"}]
+		"info": [{"desc":"Oficina del profesor Cristian Olivares","porx":"33%","pory":"43%","img":["./images/professors/CristianOlivares.jpg"]}]
 	},
 	{
 		"id":44,
@@ -529,7 +529,4 @@
 			{"nom":"bajar","escenaDestino":10,"porx":"50%","pory":"60%"}],
 		"info": []
 	}
-
-
-
 ]

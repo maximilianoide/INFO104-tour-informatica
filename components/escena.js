@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Profesor from "../components/profesor";
 import {
   Popover,
   PopoverTrigger,
@@ -45,7 +46,7 @@ const Escena = ({ escenas }) => {
           </button>
         ))}
         {escenaActual.info.map((informacion, index) => (
-          <Popover>
+          <Popover id="pop">
             <PopoverTrigger>
               <button
                 className="botonInfo"
@@ -55,13 +56,20 @@ const Escena = ({ escenas }) => {
                 }}
                 onClick={(e) => {}}
               >
-                <img src="images/info.svg" style={{}}></img>
+                <img src="images/info.svg"></img>
               </button>
             </PopoverTrigger>
             <PopoverContent>
               <PopoverArrow />
               <PopoverCloseButton />
-              <PopoverBody>
+              <PopoverBody
+                display="flex"
+                flexDirection="column"
+                justify="center"
+                textColor="black"
+                alignItems="center"
+              >
+                <Profesor imagen={informacion.img}></Profesor>
                 <div>{informacion.desc}</div>
               </PopoverBody>
             </PopoverContent>
