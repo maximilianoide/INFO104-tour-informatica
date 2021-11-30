@@ -13,7 +13,7 @@
 	{
 		"id":1,
 		"nombre":"Hall",
-		"desc":"La entrada al edificio de informática",
+		"desc":"El lugar con más circulación de gente del edificio (estudiantes, docentes, funcionarios, etc...)",
 		"imagen":  "./images/piso01/EDINFO_1_02.JPG",
 		"botones":[{"nom":"Hall","escenaDestino":0,"porx":"50%","pory":"90%"},
 			{"nom":"Ascensor","escenaDestino":2,"porx":"30%","pory":"50%"},
@@ -25,14 +25,14 @@
 		"nombre":"Ascensor",
 		"desc":"El ascensor del edificio de informatica permite una mayor accesibilidad para todos los profesores, estudiantes y funcionarios",
 		"imagen":  "./images/piso01/EDINFO_1_03.JPG",
-		"botones":[{"nom":"Entrar","escenaDestino":2,"porx":"50%","pory":"55%"},
+		"botones":[{"nom":"Entrar","escenaDestino":55,"porx":"50%","pory":"55%"},
 			{"nom":"Volver","escenaDestino":1,"porx":"14%","pory":"86%"}],
 		"info": []
 	},
 	{
 		"id":3,
 		"nombre":"Hall",
-		"desc":"La entrada al edificio de informática",
+		"desc":"En este sector específico se suelen juntar grupos de estudiantes para hacer trabajos, estudiar o simplemente pasar el tiempo entre clases",
 		"imagen":  "./images/piso01/EDINFO_1_04.JPG",
 		"botones":[{"nom":"Hall","escenaDestino":1,"porx":"33%","pory":"94%"},
 			{"nom":"Hall","escenaDestino":4,"porx":"90%","pory":"50%"},
@@ -42,7 +42,7 @@
 	{
 		"id":4,
 		"nombre":"Hall",
-		"desc":"La entrada al edificio de informática",
+		"desc":"En este sector específico se suelen juntar grupos de estudiantes para hacer trabajos, estudiar o simplemente pasar el tiempo entre clases",
 		"imagen":  "./images/piso01/EDINFO_1_05.JPG",
 		"botones":[{"nom":"Hall","escenaDestino":3,"porx":"51%","pory":"94%"}],
 		"info": [{"desc":"Fotografías ganadoras de un concurso de fotografía","porx":"58%","pory":"25%"}]
@@ -59,7 +59,7 @@
 	{
 		"id":6,
 		"nombre":"Laboratorio Curiñanco",
-		"desc":"El increible Laboratorio Curiñanco",
+		"desc":"El Laboratorio Curiñanco, aqui se suelen impartir clases sobre todo de primer año",
 		"imagen":  "./images/piso01/EDINFO_1_07.jpg",
 		"botones":[{"nom":"Volver","escenaDestino":5,"porx":"91%","pory":"92%"}],
 		"info":[]
@@ -84,7 +84,7 @@
 	{
 		"id":9,
 		"nombre":"Patio",
-		"desc":"Patio del edificio de informática",
+		"desc":"Las personas que pasan por aqui pueden acceder al edificio o distraerse jugando ajedrez o ping pong (no se prestan pelotas)",
 		"imagen":  "./images/piso00/EDINFO_0_02.jpg",
 		"botones":[{"nom":"avanzar","escenaDestino":10,"porx":"14%","pory":"50%"},
 		{"nom": "derecha","escenaDestino":13,"porx":"95%","pory":"54%"},
@@ -94,7 +94,7 @@
 	{
 		"id":10,
 		"nombre":"Entrada",
-		"desc":"Entrada del edificio de informática",
+		"desc":"Las personas que pasan por aqui pueden acceder al edificio distraerse jugando ajedrez o ping pong (no se prestan pelotas)",
 		"imagen":  "./images/piso00/EDINFO_0_03.jpg",
 		"botones":[{"nom":"entrar","escenaDestino":0,"porx":"60%","pory":"50%"},
 		{"nom": "patio","escenaDestino":9,"porx":"20%","pory":"90%"}],
@@ -112,7 +112,7 @@
 	{
 		"id":12,
 		"nombre":"Cartel",
-		"desc":"Cartel del edificio de informática",
+		"desc":"Cartel del edificio de informática, algo maltratado por el paso del tiempo pero aún firme",
 		"imagen":  "./images/piso00/EDINFO_0_05.jpg",
 		"botones":[{"nom":"volver","escenaDestino":11,"porx":"91%","pory":"70%"}],
 		"info": []
@@ -120,7 +120,7 @@
 	{
 		"id":13,
 		"nombre":"Edificio por la derecha",
-		"desc":"Vista trasera del edificio de informática",
+		"desc":"En este sector suelen realizarse actividades para las ocaciones especiales",
 		"imagen":  "./images/piso00/EDINFO_0_16.jpg",
 		"botones":[{"nom":"volver","escenaDestino":9,"porx":"20%","pory":"70%"}],
 		"info": []
@@ -137,7 +137,7 @@
 	{
 		"id":15,
 		"nombre":"Pasillo",
-		"desc":"Pasillo del segundo piso",
+		"desc":"El piso que más sufre los cambios de estaciones por su falta de ventilación adecuada, en invierno y verano se nota aún más su peculiar característica",
 		"imagen":  "./images/piso02/EDINFO_2_01.JPG",
 		"botones":[{"nom":"escaleras","escenaDestino":14,"porx":"90%","pory":"90%"},
 			{"nom":"pasillo","escenaDestino":16,"porx":"80%","pory":"50%"},
@@ -148,26 +148,28 @@
 	{
 		"id":16,
 		"nombre":"Pasillo",
-		"desc":"Pasillo del segundo piso",
-		"imagen":  "./images/piso02/EDINFO_2_02.JPG",
-		"botones":[{"nom":"pasillo","escenaDestino":15,"porx":"50%","pory":"50%"},
-			{"nom":"pasillo","escenaDestino":17,"porx":"10%","pory":"90%"}],
+		"desc":"Visa hacia el fondo, aqui se tiene acceso al pasillo del fondo, escalera y ascensor",
+		"imagen":  "./images/piso02/EDINFO_2_03.JPG",
+		"botones":[{"nom":"entrada","escenaDestino":15,"porx":"70%","pory":"90%"},
+			{"nom":"pasillo","escenaDestino":17,"porx":"50%","pory":"50%"},
+			{"nom":"ascensor","escenaDestino":59,"porx":"80%","pory":"50%"},
+			{"nom": "Lab. Mancera", "escenaDestino":38,"porx":"30%","pory":"50%"}],
 		"info": []
 	},
 	{
 		"id":17,
 		"nombre":"Pasillo",
-		"desc":"Pasillo del segundo piso",
+		"desc":"Vista frente a la escalera con vista a las oficinas del pasillo izquierdo",
 		"imagen":  "./images/piso02/EDINFO_2_04.JPG",
 		"botones":[{"nom":"escaleras","escenaDestino":18,"porx":"75%","pory":"50%"},
-			{"nom":"pasillo","escenaDestino":16,"porx":"90%","pory":"90%"},
-			{"nom":"pasillo","escenaDestino":37,"porx":"20%","pory":"60%"}],
+			{"nom":"volver","escenaDestino":16,"porx":"90%","pory":"90%"},
+			{"nom":"pasillo izquierdo","escenaDestino":37,"porx":"20%","pory":"60%"}],
 		"info": [{"desc":"Oficina profesor Christian Lazo","porx":"2%","pory":"35%","img":["./images/professors/ChristianLazo.jpg"]}]
 	},
 	{
 		"id":18,
 		"nombre":"Escaleras",
-		"desc":"Pasillo del segundo piso",
+		"desc":"Escaleras para subir al tercer piso",
 		"imagen":  "./images/piso02/EDINFO_2_07.JPG",
 		"botones":[{"nom":"Subir","escenaDestino":19,"porx":"75%","pory":"50%"},
 			{"nom":"Bajar","escenaDestino":17,"porx":"50%","pory":"90%"}],
@@ -185,7 +187,7 @@
 	{
 		"id":20,
 		"nombre":"Pasillo",
-		"desc":"Pasillo del tercer piso",
+		"desc":"Pasillo del tercer piso, aqui suele haber mucho tráfico de profesores",
 		"imagen":  "./images/piso03/EDINFO_3_01.jpg",
 		"botones":[{"nom":"izquierda","escenaDestino":31,"porx":"20%","pory":"50%"},
 				{"nom":"derecha","escenaDestino":21, "porx":"80%","pory":"50%"},
@@ -196,12 +198,13 @@
 	{
 		"id":21,
 		"nombre":"pasillo",
-		"desc":"Pasillo del tercer piso",
+		"desc":"Pasillo con vista hacia la derecha",
 		"imagen":  "./images/piso03/EDINFO_3_02.jpg",
-		"botones":[{"nom":"entrada","escenaDestino":20,"porx":"60%","pory":"75%"},
+		"botones":[{"nom":"entrada","escenaDestino":20,"porx":"80%","pory":"95%"},
 			{"nom":"cafeteria","escenaDestino":28,"porx":"20%","pory":"50%"},
 			{"nom":"izquierda","escenaDestino":23,"porx":"40%","pory":"50%"},
-			{"nom":"derecha","escenaDestino":22,"porx":"60%","pory":"50%"}],
+			{"nom":"derecha","escenaDestino":22,"porx":"60%","pory":"50%"},
+			{"nom":"ascensor","escenaDestino":62,"porx":"78%","pory":"45%"}],
 		"info": [{"desc":"Oficina del profesor Jorge Morales","porx":"55%","pory":"30%","img":["./images/professors/JorgeMorales.jpg"]}]
 	},
 	{
@@ -225,8 +228,9 @@
 		"botones":[{"nom":"pasillo derecho","escenaDestino":22,"porx":"80%","pory":"70%"},
 			{"nom":"volver","escenaDestino":21,"porx":"50%","pory":"90%"},
 			{"nom":"sala Toro Bayo","escenaDestino":24,"porx":"25%","pory":"60%"}],
-		"info": [{"desc":"Dirección","porx":"50%","pory":"40%"},
-			{"desc":"Cuadro de John Von Neumann","porx":"65%","pory":"35%"}]
+		"info": [{"desc":"Dirección. Director actual Christian Lazo","porx":"48%","pory":"40%","img":["./images/professors/ChristianLazo.jpg"]},
+			{"desc":"Cuadro de John Von Neumann","porx":"62%","pory":"35%"},
+			{"desc":"Oficina de la secretaria de instituto de informática Verónica Morales","porx":"75%","pory":"50%"}]
 	},
 	{
 		"id":24,
@@ -242,7 +246,7 @@
 	{
 		"id":25,
 		"nombre":"Sala Toro Bayo",
-		"desc":"Sala Toro Bayo centro",
+		"desc":"Frecuentemente utilizada como sala de reuniones. También se utiliza para aquellos estudiantes que quieran celebrar haber pasado su examen de grado",
 		"imagen":  "./images/piso03/EDINFO_3_07.jpg",
 		"botones":[{"nom":"entrada izquierda","escenaDestino":33,"porx":"25%","pory":"70%"},
 			{"nom":"cafeteria","escenaDestino":28,"porx":"50%","pory":"90%"},
@@ -253,7 +257,7 @@
 	{
 		"id":26,
 		"nombre":"Sala Toro Bayo",
-		"desc":"Sala Toro Bayo centro",
+		"desc":"Frecuentemente utilizada como sala de reuniones. También se utiliza para aquellos estudiantes que quieran celebrar haber pasado su examen de grado",
 		"imagen":  "./images/piso03/EDINFO_3_08.jpg",
 		"botones":[{"nom":"ventana","escenaDestino":27,"porx":"50%","pory":"20%"},
 			{"nom":"volver","escenaDestino":25,"porx":"50%","pory":"90%"}],
@@ -262,7 +266,7 @@
 	{
 		"id":27,
 		"nombre":"Ventana",
-		"desc":"Vista bonita desde la ventana uwu",
+		"desc":"Vista a los edificios cercanos desde la ventana",
 		"imagen":  "./images/piso03/EDINFO_3_09.jpg",
 		"botones":[{"nom":"volver","escenaDestino":25,"porx":"50%","pory":"90%"}],
 		"info": [{"desc":"Edificio 9000","porx":"70%","pory":"30%"},
@@ -300,12 +304,13 @@
 	{
 		"id":31,
 		"nombre":"pasillo",
-		"desc":"Pasillo del tercer piso",
+		"desc":"Pasillo con vista hacia la izquierda",
 		"imagen":  "./images/piso03/EDINFO_3_14.jpg",
 		"botones":[{"nom":"entrada","escenaDestino":20,"porx":"40%","pory":"60%"},
 			{"nom":"cafeteria","escenaDestino":28,"porx":"80%","pory":"50%"},
 			{"nom":"izquierda","escenaDestino":35,"porx":"40%","pory":"40%"},
-			{"nom":"derecha","escenaDestino":32,"porx":"60%","pory":"40%"}],
+			{"nom":"derecha","escenaDestino":32,"porx":"60%","pory":"40%"},
+			{"nom":"ascensor","escenaDestino":62,"porx":"30%","pory":"40%"}],
 		"info": [{"desc":"Oficina del profesor Raimundo Vega","porx":"48%","pory":"30%","img":["./images/professors/RaimundoVega.jpg"]}]
 	},
 	{
@@ -317,10 +322,10 @@
 			{"nom":"sala toro bayo","escenaDestino":33,"porx":"80%","pory":"50%"},
 			{"nom":"pasillo izquierdo","escenaDestino":35,"porx":"10%","pory":"65%"},
 			{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"}],
-		"info": [{"desc":"Oficina de la profesora Maria Eliana de la Maza","porx":"33%","pory":"40%","img":["./images/professors/MariaElianaDeLaMaza.jpg"]},
+		"info": [{"desc":"Oficina de la profesora Maria Eliana de la Maza","porx":"30%","pory":"40%","img":["./images/professors/MariaElianaDeLaMaza.jpg"]},
 			{"desc":"Mural tercer piso","porx":"10%","pory":"10%"},
-			{"desc":"Cuadro de Alan Turing","porx":"40%","pory":"30%"},
-			{"desc":"Oficina del profesor Luis Alvarez","porx":"42%","pory":"40%","img":["./images/professors/LuisAlvarez.jpg"]}]
+			{"desc":"Cuadro de Alan Turing","porx":"39%","pory":"30%"},
+			{"desc":"Oficina del profesor Erick Araya","porx":"41%","pory":"40%","img":["./images/professors/ErickAraya.jpg"]}]
 	},
 	{
 		"id":33,
@@ -340,7 +345,7 @@
 		"imagen":  "./images/piso03/EDINFO_3_17.jpg",
 		"botones":[{"nom":"volver","escenaDestino":32,"porx":"50%","pory":"90%"},
 			{"nom":"salida de emergencia","escenaDestino":47,"porx":"50%","pory":"50%"}],
-		"info": [{"desc":"Oficina del profesor Erick Araya","porx":"30%","pory":"50%","img":["./images/professors/ErickAraya.jpg"]},
+		"info": [{"desc":"Oficina del profesor Luis Alvarez","porx":"30%","pory":"50%","img":["./images/professors/LuisAlvarez.jpg"]},
 			{"desc":"Mueble de vidrio con revistas de informática","porx":"90%","pory":"50%"}]
 	},
 	{
@@ -351,8 +356,8 @@
 		"botones":[{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"},
 			{"nom":"pasillo derecho","escenaDestino":32,"porx":"90%","pory":"80%"},
 			{"nom":"avanzar","escenaDestino":36,"porx":"50%","pory":"50%"}],
-		"info": [{"desc":"Cuadro de Charles Babbage","porx":"78%","pory":"32%"},
-			{"desc":"Oficina del profesor Pablo Huijse","porx":"66%","pory":"35%","img":["./images/professors/PabloHuijse.jpeg"]}]
+		"info": [{"desc":"Cuadro de Charles Babbage","porx":"73%","pory":"32%"},
+			{"desc":"Oficina del profesor Pablo Huijse","porx":"63%","pory":"35%","img":["./images/professors/PabloHuijse.jpeg"]}]
 	},
 	{
 		"id":36,
@@ -360,10 +365,10 @@
 		"desc":"Pasillo izquierdo mano izquierda fondo",
 		"imagen":  "./images/piso03/EDINFO_3_19.jpg",
 		"botones":[{"nom":"volver","escenaDestino":35,"porx":"50%","pory":"90%"}],
-		"info": [{"desc":"Cuadro de Edsger Dijkstra","porx":"90%","pory":"45%"},
-			{"desc":"Oficina de la profesora y jefa de carrera Marianna Villarroel","porx":"50%","pory":"42%","img":["./images/professors/MariannaVillarroel.jpg"]},
-			{"desc":"Oficina del Cristobal Navarro","porx":"63%","pory":"42%","img":["./images/professors/CristobalNavarro.jpg"]},
-			{"desc":"Oficina de los profesores Hector Ferrada y Matthieu Vernier","porx":"60%","pory":"42%","img":["./images/professors/HectorFerrada.jpeg","./images/professors/MatthieuVernier.jpeg"]}]
+		"info": [{"desc":"Cuadro de Edsger Dijkstra","porx":"83%","pory":"45%"},
+			{"desc":"Oficina de la profesora y jefa de carrera Marianna Villarroel","porx":"50%","pory":"44%","img":["./images/professors/MariannaVillarroel.jpg"]},
+			{"desc":"Oficina del Cristobal Navarro","porx":"61%","pory":"42%","img":["./images/professors/CristobalNavarro.jpg"]},
+			{"desc":"Oficina de los profesores Hector Ferrada y Matthieu Vernier","porx":"57%","pory":"42%","img":["./images/professors/HectorFerrada.jpeg","./images/professors/MatthieuVernier.jpeg"]}]
 	},
 	{
 		"id":37,
@@ -398,7 +403,8 @@
 		"imagen":  "./images/piso02/EDINFO_2_02.JPG",
 		"botones":[{"nom":"volver","escenaDestino":15,"porx":"40%","pory":"60%"},
 			{"nom":"izquierda","escenaDestino":42,"porx":"50%","pory":"40%"},
-			{"nom":"derecha","escenaDestino":41,"porx":"75%","pory":"40%"}],
+			{"nom":"derecha","escenaDestino":41,"porx":"75%","pory":"40%"},
+			{"nom":"ascensor","escenaDestino":59,"porx":"20%","pory":"45%"}],
 		"info": []
 	},
 	{
@@ -468,7 +474,7 @@
 	{
 		"id":48,
 		"nombre":"Salida de emergencia",
-		"desc":"Salida de emergencia desde el tercer piso",
+		"desc":"En realidad no se recomienda salir por aquí pues suena una alarma muy ruidosa al abrir la puerta",
 		"imagen":  "./images/esc_emer/EDINFO_SE_02.JPG",
 		"botones":[{"nom":"volver","escenaDestino":47,"porx":"50%","pory":"90%"},
 			{"nom":"Saltar","escenaDestino":49,"porx":"50%","pory":"75%"}],
@@ -528,5 +534,85 @@
 		"botones":[{"nom":"volver","escenaDestino":53,"porx":"50%","pory":"90%"},
 			{"nom":"bajar","escenaDestino":10,"porx":"50%","pory":"60%"}],
 		"info": []
+	},
+	{
+		"id":55,
+		"nombre":"Ascensor",
+		"desc":"El ascensor del edificio de informatica permite una mayor accesibilidad para todos los profesores, estudiantes y funcionarios",
+		"imagen":  "./images/elev/EDINFO_ELE_01.JPG",
+		"botones":[{"nom":"segundo piso","escenaDestino":57,"porx":"53%","pory":"78%"},
+			{"nom":"tercer piso","escenaDestino":60,"porx":"53%","pory":"70%"},
+			{"nom":"Volver","escenaDestino":56,"porx":"53%","pory":"95%"}],
+		"info": [{"desc":"Usted está en el primer piso","porx":"53%","pory":"30%"}]
+	},
+	{
+		"id":56,
+		"nombre":"Ascensor",
+		"desc":"El ascensor del edificio de informatica permite una mayor accesibilidad para todos los profesores, estudiantes y funcionarios",
+		"imagen":  "./images/elev/EDINFO_ELE_02.JPG",
+		"botones":[{"nom":"salir","escenaDestino":2,"porx":"53%","pory":"70%"},
+			{"nom":"volver","escenaDestino":55,"porx":"53%","pory":"95%"}],
+		"info": []
+	},
+	{
+		"id":57,
+		"nombre":"Ascensor",
+		"desc":"El ascensor del edificio de informatica permite una mayor accesibilidad para todos los profesores, estudiantes y funcionarios",
+		"imagen":  "./images/elev/EDINFO_ELE_01.JPG",
+		"botones":[{"nom":"primer piso","escenaDestino":55,"porx":"53%","pory":"85%"},
+			{"nom":"tercer piso","escenaDestino":60,"porx":"53%","pory":"70%"},
+			{"nom":"Volver","escenaDestino":58,"porx":"53%","pory":"95%"}],
+		"info": [{"desc":"Usted está en el segundo piso","porx":"53%","pory":"30%"}]
+	},
+	{
+		"id":58,
+		"nombre":"Ascensor",
+		"desc":"El ascensor del edificio de informatica permite una mayor accesibilidad para todos los profesores, estudiantes y funcionarios",
+		"imagen":  "./images/elev/EDINFO_ELE_03.JPG",
+		"botones":[{"nom":"salir","escenaDestino":59,"porx":"53%","pory":"70%"},
+			{"nom":"volver","escenaDestino":57,"porx":"53%","pory":"95%"}],
+		"info": []
+	},
+	{
+		"id":59,
+		"nombre":"Pasillo segundo piso",
+		"desc":"Pasillo del segundo piso, frente al ascensor",
+		"imagen":  "./images/elev/EDINFO_ELE_04.JPG",
+		"botones":[{"nom":"ascensor","escenaDestino":57,"porx":"50%","pory":"60%"},
+			{"nom":"volver","escenaDestino":16,"porx":"10%","pory":"90%"},
+			{"nom":"volver","escenaDestino":40,"porx":"90%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":60,
+		"nombre":"Ascensor",
+		"desc":"El ascensor del edificio de informatica permite una mayor accesibilidad para todos los profesores, estudiantes y funcionarios",
+		"imagen":  "./images/elev/EDINFO_ELE_01.JPG",
+		"botones":[{"nom":"primer piso","escenaDestino":55,"porx":"53%","pory":"85%"},
+			{"nom":"segundo piso","escenaDestino":57,"porx":"53%","pory":"78%"},
+			{"nom":"Volver","escenaDestino":61,"porx":"53%","pory":"95%"}],
+		"info": [{"desc":"Usted está en el tercer piso","porx":"53%","pory":"30%"}]
+	},
+	{
+		"id":61,
+		"nombre":"Ascensor",
+		"desc":"El ascensor del edificio de informatica permite una mayor accesibilidad para todos los profesores, estudiantes y funcionarios",
+		"imagen":  "./images/elev/EDINFO_ELE_06.JPG",
+		"botones":[{"nom":"salir","escenaDestino":62,"porx":"53%","pory":"70%"},
+			{"nom":"volver","escenaDestino":60,"porx":"53%","pory":"95%"}],
+		"info": []
+	},
+	{
+		"id":62,
+		"nombre":"Pasillo tercer piso",
+		"desc":"Pasillo del tercer piso, frente al ascensor",
+		"imagen":  "./images/elev/EDINFO_ELE_05.JPG",
+		"botones":[{"nom":"ascensor","escenaDestino":60,"porx":"50%","pory":"50%"},
+			{"nom":"volver","escenaDestino":21,"porx":"10%","pory":"90%"},
+			{"nom":"volver","escenaDestino":31,"porx":"90%","pory":"90%"}],
+		"info": []
 	}
+
+	
+
 ]
