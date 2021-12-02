@@ -46,7 +46,7 @@ const Escena = ({ escenas }) => {
           </button>
         ))}
         {escenaActual.info.map((informacion, index) => (
-          <Popover id="pop">
+          <Popover>
             <PopoverTrigger>
               <button
                 className="botonInfo"
