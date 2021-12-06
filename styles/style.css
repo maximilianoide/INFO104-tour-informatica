@@ -118,6 +118,7 @@ a {
   font-family: sans-serif;
   color: rgb(255, 255, 255);
   /*-webkit-text-stroke: 2px black;*/
+  -webkit-text-stroke-width: 2px;
   margin-top: 2.5em;
   line-height: 3.5;
   font-size: 5rem;
@@ -127,7 +128,10 @@ a {
 .title,
 .description {
   text-align: center;
-  font-size: 0px;
+  font-size: 80px;
+  letter-spacing: 5px;
+  background-color: rgb(36, 36, 36, 0.6);
+  border-radius: 1em;
 }
 
 .description {

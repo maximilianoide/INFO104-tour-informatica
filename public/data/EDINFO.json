@@ -18,7 +18,7 @@
 		"botones":[{"nom":"Hall","escenaDestino":0,"porx":"50%","pory":"90%"},
 			{"nom":"Ascensor","escenaDestino":2,"porx":"30%","pory":"50%"},
 			{"nom":"Hall","escenaDestino":3,"porx":"74%","pory":"50%"}],
-		"info": []
+		"info": [{"desc":"Oficina de Carlos Sepulveda (Auxiliar del edificio)","porx":"45%","pory":"43%","img":["./images/professors/CarlosSepulveda.jpg"]}]
 	},
 	{
 		"id":2,
@@ -53,15 +53,16 @@
 		"desc":"Pasillo que conecta el hall con la cafeteria, el laboratorio Curiñanco y la sala de reuniones",
 		"imagen":  "./images/piso01/EDINFO_1_06.JPG",
 		"botones":[{"nom":"Hall","escenaDestino":3,"porx":"51%","pory":"94%"},
-			{"nom":"Lab. Curiñanco","escenaDestino":6,"porx":"50%","pory":"51%"}],
+			{"nom":"Avanzar","escenaDestino":66,"porx":"50%","pory":"51%"}],
 		"info":[]
 	},
 	{
 		"id":6,
 		"nombre":"Laboratorio Curiñanco",
 		"desc":"El Laboratorio Curiñanco, aqui se suelen impartir clases sobre todo de primer año",
-		"imagen":  "./images/piso01/EDINFO_1_07.jpg",
-		"botones":[{"nom":"Volver","escenaDestino":5,"porx":"91%","pory":"92%"}],
+		"imagen":  "./images/piso01/EDINFO_1_12.jpg",
+		"botones":[{"nom":"Volver","escenaDestino":66,"porx":"50%","pory":"95%"},
+			{"nom":"Avanzar","escenaDestino":70,"porx":"50%","pory":"50%"}],
 		"info":[]
 	},
 	{
@@ -69,7 +70,8 @@
 		"nombre":"Hall",
 		"desc":"La entrada al edificio de informática",
 		"imagen":  "./images/piso01/EDINFO_1_08.jpg",
-		"botones":[{"nom":"Hall","escenaDestino":0,"porx":"91%","pory":"70%"}],
+		"botones":[{"nom":"Hall","escenaDestino":0,"porx":"91%","pory":"70%"},
+			{"nom":"Oficina","escenaDestino":63,"porx":"40%","pory":"70%"}],
 		"info":[{"desc":"Oficina de la Secretaria","porx":"40%","pory":"54%"}]
 	},
 	{
@@ -94,9 +96,9 @@
 	{
 		"id":10,
 		"nombre":"Entrada",
-		"desc":"Las personas que pasan por aqui pueden acceder al edificio distraerse jugando ajedrez o ping pong (no se prestan pelotas)",
+		"desc":"Las personas que pasan por aqui pueden acceder al edificio o distraerse jugando ajedrez o ping pong (no se prestan pelotas)",
 		"imagen":  "./images/piso00/EDINFO_0_03.jpg",
-		"botones":[{"nom":"entrar","escenaDestino":0,"porx":"60%","pory":"50%"},
+		"botones":[{"nom":"entrar","escenaDestino":0,"porx":"55%","pory":"50%"},
 		{"nom": "patio","escenaDestino":9,"porx":"20%","pory":"90%"}],
 		"info": []
 	},
@@ -105,8 +107,8 @@
 		"nombre":"Edificio por la Izquierda",
 		"desc":"Vista lateral del edificio de informática",
 		"imagen":  "./images/piso00/EDINFO_0_04.jpg",
-		"botones":[{"nom":"cartel","escenaDestino":12,"porx":"50%","pory":"90%"},
-		{"nom":"volver","escenaDestino":8,"porx":"94%","pory":"50%"}],
+		"botones":[{"nom":"cartel","escenaDestino":12,"porx":"43%","pory":"88%"},
+		{"nom":"volver","escenaDestino":8,"porx":"94%","pory":"90%"}],
 		"info": []
 	},
 	{
@@ -214,11 +216,11 @@
 		"imagen":  "./images/piso03/EDINFO_3_03.jpg",
 		"botones":[{"nom":"pasillo izquierdo","escenaDestino":23,"porx":"20%","pory":"70%"},
 			{"nom":"volver","escenaDestino":21,"porx":"50%","pory":"90%"}],
-		"info": [{"desc":"Oficina del profesor Juan Salazar ","porx":"25%","pory":"50%","img":["./images/professors/JuanSalazar.jpg"]},
-			{"desc":"Oficina de los profesores Jorge Maturana y Mauricio Ruiz-Tagle","porx":"44%","pory":"40%","img":["./images/professors/JorgeMaturana.jpeg","./images/professors/MauricioRuizTagle.jpg"]},
-			{"desc":"Oficina del profesor Daniel Guerra","porx":"50%","pory":"35%","img":["./images/professors/DanielGuerra.png"]},
-			{"desc":"Oficina de profesores adjuntos","porx":"42%","pory":"40%"},
-			{"desc":"Cuadro de Ada Lovelace","porx":"35%","pory":"30%"}]
+		"info": [{"desc":"Oficina del profesor Juan Salazar ","porx":"23%","pory":"43%","img":["./images/professors/JuanSalazar.jpg"]},
+			{"desc":"Oficina de los profesores Jorge Maturana y Mauricio Ruiz-Tagle","porx":"42%","pory":"40%","img":["./images/professors/JorgeMaturana.jpeg","./images/professors/MauricioRuizTagle.jpg"]},
+			{"desc":"Oficina del profesor Daniel Guerra","porx":"48%","pory":"40%","img":["./images/professors/DanielGuerra.png"]},
+			{"desc":"Oficina de profesores adjuntos","porx":"40%","pory":"40%"},
+			{"desc":"Cuadro de Ada Lovelace","porx":"35%","pory":"30%","img":["./images/professors/AdaLovelace.png"]}]
 	},
 	{
 		"id":23,
@@ -227,9 +229,10 @@
 		"imagen":  "./images/piso03/EDINFO_3_04.jpg",
 		"botones":[{"nom":"pasillo derecho","escenaDestino":22,"porx":"80%","pory":"70%"},
 			{"nom":"volver","escenaDestino":21,"porx":"50%","pory":"90%"},
-			{"nom":"sala Toro Bayo","escenaDestino":24,"porx":"25%","pory":"60%"}],
+			{"nom":"sala Toro Bayo","escenaDestino":24,"porx":"25%","pory":"60%"},
+			{"nom":"entrar","escenaDestino":75,"porx":"68%","pory":"50%"}],
 		"info": [{"desc":"Dirección. Director actual Christian Lazo","porx":"48%","pory":"40%","img":["./images/professors/ChristianLazo.jpg"]},
-			{"desc":"Cuadro de John Von Neumann","porx":"62%","pory":"35%"},
+			{"desc":"Cuadro de John Von Neumann","porx":"62%","pory":"35%","img":["./images/professors/JohnVonNeumann.png"]},
 			{"desc":"Oficina de la secretaria de instituto de informática Verónica Morales","porx":"75%","pory":"50%"}]
 	},
 	{
@@ -324,7 +327,7 @@
 			{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"}],
 		"info": [{"desc":"Oficina de la profesora Maria Eliana de la Maza","porx":"30%","pory":"40%","img":["./images/professors/MariaElianaDeLaMaza.jpg"]},
 			{"desc":"Mural tercer piso","porx":"10%","pory":"10%"},
-			{"desc":"Cuadro de Alan Turing","porx":"39%","pory":"30%"},
+			{"desc":"Cuadro de Alan Turing","porx":"39%","pory":"30%","img":["./images/professors/AlanTuring.jpg"]},
 			{"desc":"Oficina del profesor Erick Araya","porx":"41%","pory":"40%","img":["./images/professors/ErickAraya.jpg"]}]
 	},
 	{
@@ -356,7 +359,7 @@
 		"botones":[{"nom":"volver","escenaDestino":31,"porx":"50%","pory":"90%"},
 			{"nom":"pasillo derecho","escenaDestino":32,"porx":"90%","pory":"80%"},
 			{"nom":"avanzar","escenaDestino":36,"porx":"50%","pory":"50%"}],
-		"info": [{"desc":"Cuadro de Charles Babbage","porx":"73%","pory":"32%"},
+		"info": [{"desc":"Cuadro de Charles Babbage","porx":"73%","pory":"32%","img":["./images/professors/CharlesBabbage.jpg"]},
 			{"desc":"Oficina del profesor Pablo Huijse","porx":"63%","pory":"35%","img":["./images/professors/PabloHuijse.jpeg"]}]
 	},
 	{
@@ -365,7 +368,7 @@
 		"desc":"Pasillo izquierdo mano izquierda fondo",
 		"imagen":  "./images/piso03/EDINFO_3_19.jpg",
 		"botones":[{"nom":"volver","escenaDestino":35,"porx":"50%","pory":"90%"}],
-		"info": [{"desc":"Cuadro de Edsger Dijkstra","porx":"83%","pory":"45%"},
+		"info": [{"desc":"Cuadro de Edsger Dijkstra","porx":"83%","pory":"45%","img":["./images/professors/EdsgerDijkstra.jpg"]},
 			{"desc":"Oficina de la profesora y jefa de carrera Marianna Villarroel","porx":"50%","pory":"44%","img":["./images/professors/MariannaVillarroel.jpg"]},
 			{"desc":"Oficina del Cristobal Navarro","porx":"61%","pory":"42%","img":["./images/professors/CristobalNavarro.jpg"]},
 			{"desc":"Oficina de los profesores Hector Ferrada y Matthieu Vernier","porx":"57%","pory":"42%","img":["./images/professors/HectorFerrada.jpeg","./images/professors/MatthieuVernier.jpeg"]}]
@@ -413,7 +416,8 @@
 		"desc":"Laboratorio Llancahue",
 		"imagen":  "./images/piso02/EDINFO_2_11.JPG",
 		"botones":[{"nom":"volver","escenaDestino":40,"porx":"50%","pory":"90%"},
-			{"nom":"izquierda","escenaDestino":42,"porx":"10%","pory":"40%"}],
+			{"nom":"izquierda","escenaDestino":42,"porx":"10%","pory":"40%"},
+			{"nom":"entrar","escenaDestino":72,"porx":"50%","pory":"40%"}],
 		"info": []
 	},
 	{
@@ -464,7 +468,7 @@
 	{
 		"id":47,
 		"nombre":"Salida de emergencia",
-		"desc":"Salida de emergencia desde el tercer piso",
+		"desc":"En realidad no se recomienda salir por aquí pues suena una alarma muy ruidosa al abrir la puerta",
 		"imagen":  "./images/esc_emer/EDINFO_SE_01.JPG",
 		"botones":[{"nom":"volver","escenaDestino":34,"porx":"50%","pory":"90%"},
 			{"nom":"mirar","escenaDestino":48,"porx":"30%","pory":"50%"},
@@ -611,8 +615,141 @@
 			{"nom":"volver","escenaDestino":21,"porx":"10%","pory":"90%"},
 			{"nom":"volver","escenaDestino":31,"porx":"90%","pory":"90%"}],
 		"info": []
+	},
+	{
+		"id":63,
+		"nombre":"Oficina de la secretaria primer piso",
+		"desc":"Oficina de la secretaria, aquí los estudiantes hacen los tramites y consultar que requieran a la secretaria de la carrera de informática",
+		"imagen":  "/images/piso01/EDINFO_1_17.JPG",
+		"botones":[{"nom":"avanzar","escenaDestino":64,"porx":"65%","pory":"50%"},
+			{"nom":"volver","escenaDestino":7,"porx":"60%","pory":"95%"}],
+		"info": []
+	},
+	{
+		"id":64,
+		"nombre":"Oficina de de reuniones",
+		"desc":"Oficina de reuniones del primer piso, aqui se suelen reunir profesores, estudiantes y demás junto a la jefa de la carrera",
+		"imagen":  "/images/piso01/EDINFO_1_18.JPG",
+		"botones":[{"nom":"volver","escenaDestino":65,"porx":"50%","pory":"90%"}],
+		"info": []
+	},
+	{
+		"id":65,
+		"nombre":"Oficina de la secretaria primer piso",
+		"desc":"Oficina de la secretaria, aquí los estudiantes hacen los tramites y consultar que requieran a la secretaria de la carrera de informática",
+		"imagen":  "/images/piso01/EDINFO_1_19.JPG",
+		"botones":[{"nom":"volver","escenaDestino":64,"porx":"35%","pory":"95%"},
+			{"nom":"salir","escenaDestino":7,"porx":"50%","pory":"70%"}],
+		"info": []
+	},
+	{
+		"id":66,
+		"nombre":"Pasillo del primer piso",
+		"desc":"Pasillo que conecta el hall con la cafeteria, el laboratorio Curiñanco y la sala de reuniones",
+		"imagen":  "/images/piso01/EDINFO_1_10.JPG",
+		"botones":[{"nom":"volver","escenaDestino":5,"porx":"50%","pory":"95%"},
+			{"nom":"Cafetería","escenaDestino":67,"porx":"30%","pory":"60%"},
+			{"nom":"Lab.Curiñanco","escenaDestino":6,"porx":"53%","pory":"60%"},
+			{"nom":"Sala Cau Cau","escenaDestino":68,"porx":"75%","pory":"60%"}],
+		"info": []
+	},
+	{
+		"id":67,
+		"nombre":"Cafetaria",
+		"desc":"Cafetería del primer piso, principalmente utilizada por los estudiantes",
+		"imagen":  "/images/piso01/EDINFO_1_11.JPG",
+		"botones":[{"nom":"volver","escenaDestino":66,"porx":"50%","pory":"95%"}],
+		"info": []
+	},
+	{
+		"id":68,
+		"nombre":"Sala Cau Cau",
+		"desc":"Sala Cau Cau, aqui se suelen hacer reuniones, presentaciones y cosas por el estilo",
+		"imagen":  "/images/piso01/EDINFO_1_15.JPG",
+		"botones":[{"nom":"volver","escenaDestino":66,"porx":"50%","pory":"95%"},
+			{"nom":"voltear","escenaDestino":69,"porx":"50%","pory":"60%"}],
+		"info": []
+	},
+	{
+		"id":69,
+		"nombre":"Pasillo del primer piso",
+		"desc":"Pasillo que conecta el hall con la cafeteria, el laboratorio Curiñanco y la sala de reuniones",
+		"imagen":  "/images/piso01/EDINFO_1_16.JPG",
+		"botones":[{"nom":"Salir","escenaDestino":66,"porx":"62%","pory":"45%"},
+			{"nom":"voltear","escenaDestino":68,"porx":"50%","pory":"65%"}],
+			
+		"info": []
+	},
+	{
+		"id":70,
+		"nombre":"Laboratorio Curiñanco",
+		"desc":"El Laboratorio Curiñanco, aqui se suelen impartir clases sobre todo de primer año",
+		"imagen":  "/images/piso01/EDINFO_1_13.JPG",
+		"botones":[{"nom":"volver","escenaDestino":6,"porx":"50%","pory":"95%"},
+			{"nom":"voltear","escenaDestino":71,"porx":"50%","pory":"60%"}],
+			
+		"info": []
+	},
+	{
+		"id":71,
+		"nombre":"Laboratorio Curiñanco",
+		"desc":"El Laboratorio Curiñanco, aqui se suelen impartir clases sobre todo de primer año",
+		"imagen":  "/images/piso01/EDINFO_1_14.JPG",
+		"botones":[{"nom":"volver","escenaDestino":6,"porx":"53%","pory":"60%"},
+			{"nom":"voltear","escenaDestino":70,"porx":"50%","pory":"95%"}],
+			
+		"info": []
+	},
+	{
+		"id":72,
+		"nombre":"Laboratorio Llancahue",
+		"desc":"El laboratorio Llancahue, por aquí se accede a la salida de emergencia del segundo piso",
+		"imagen":  "/images/piso02/EDINFO_2_17.JPG",
+		"botones":[{"nom":"salir","escenaDestino":41,"porx":"50%","pory":"90%"},
+			{"nom":"izquierda","escenaDestino":73,"porx":"30%","pory":"50%"},
+			{"nom":"derecha","escenaDestino":74,"porx":"70%","pory":"50%"}],
+			
+		"info": []
+	},
+	{
+		"id":73,
+		"nombre":"Laboratorio Llancahue",
+		"desc":"El laboratorio Llancahue, por aquí se accede a la salida de emergencia del segundo piso",
+		"imagen":  "/images/piso02/EDINFO_2_18.JPG",
+		"botones":[{"nom":"volver","escenaDestino":72,"porx":"10%","pory":"90%"},
+			{"nom":"derecha","escenaDestino":74,"porx":"90%","pory":"90%"}],
+			
+		"info": []
+	},
+	{
+		"id":74,
+		"nombre":"Laboratorio Llancahue",
+		"desc":"El laboratorio Llancahue, por aquí se accede a la salida de emergencia del segundo piso",
+		"imagen":  "/images/piso02/EDINFO_2_19.JPG",
+		"botones":[{"nom":"izquierda","escenaDestino":73,"porx":"10%","pory":"90%"},
+			{"nom":"volver","escenaDestino":72,"porx":"90%","pory":"90%"}],
+			
+		"info": []
+	},
+	{
+		"id":75,
+		"nombre":"Oficina de la secretaria de instituto",
+		"desc":"Oficina de la secretaria de la secretaria de instituto, no confundir con la secretaria de carrera",
+		"imagen":  "/images/piso03/EDINFO_3_21.JPG",
+		"botones":[{"nom":"fondo","escenaDestino":76,"porx":"10%","pory":"90%"},
+			{"nom":"volver","escenaDestino":23,"porx":"85%","pory":"90%"}],
+			
+		"info": []
+	},
+	{
+		"id":76,
+		"nombre":"Oficina de la secretaria de instituto",
+		"desc":"Oficina de la secretaria de la secretaria de instituto, no confundir con la secretaria de carrera",
+		"imagen":  "/images/piso03/EDINFO_3_22.JPG",
+		"botones":[{"nom":"voltear","escenaDestino":75,"porx":"50%","pory":"90%"}],
+			
+		"info": []
 	}
-
 	
 
 ]
