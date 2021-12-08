@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
 const Index = () => {
   return (
     <div className="paginaInicio">

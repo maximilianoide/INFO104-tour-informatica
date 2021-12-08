@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Profesor from "../components/profesor";
 import {
   Popover,
   PopoverTrigger,
   PopoverContent,
-  PopoverHeader,
   PopoverBody,
-  PopoverFooter,
   PopoverArrow,
   PopoverCloseButton,
 } from "@chakra-ui/react";
