@@ -2,7 +2,7 @@
 
 html,
 body {
-  background-color: #d8bdbd;
+  background-color: black;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -14,92 +14,35 @@ body {
 }
 
 .container {
-  background-color: #d8bdbd;
+  background-image: url(https://media.discordapp.net/attachments/889893429889339472/913190280063246356/edificiogris_1.jpg?width=711&height=473);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
 main {
-  padding: 5rem 0;
+  display: flex !important;
   flex: auto;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-
-footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer img {
-  margin-left: 0.5rem;
-}
-
-footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 a {
   color: #0070f3;
   text-decoration: none;
 }
 
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.3em;
-  border-bottom: 1px solid #999999;
-  width: 100%;
-  background-color: #eaeaea;
-}
-
-.menu a {
-  margin: 10px 20px 10px 20px;
-  border-bottom: 3px solid #e0e0e0;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-.currentPage {
-  border-bottom: 3px solid #0070f3 !important;
-  color: #333333;
-}
-
-.counter {
-  font-size: 0.7em;
-  padding-left: 25px;
-  border: 0px !important;
-}
 .counter button {
   padding: 1px 10px;
   margin: 0;
   font-size: 0.8em;
   cursor: pointer;
-}
-.todo-item {
-  display: flex;
-  padding: 10px;
-  border-bottom: 1px solid #e0e0e0;
-}
-.todo-item-title {
-  flex: 10;
-}
-.todo-item-done {
-  flex: 1;
 }
 
 .title a {
@@ -114,14 +57,23 @@ a {
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke-width: 2px;
+  margin-top: 2.5em;
+  line-height: 3.5;
+  font-size: 5rem;
+  text-shadow: 2px 2px 10px #333333;
 }
 
 .title,
 .description {
   text-align: center;
+  font-size: 80px;
+  letter-spacing: 5px;
+  background-color: rgb(36, 36, 36, 0.6);
+  border-radius: 1em;
+  padding: 10px;
 }
 
 .description {
@@ -129,33 +81,16 @@ a {
   font-size: 1.5rem;
 }
 
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  max-width: 800px;
-  margin-top: 3rem;
-}
 .card {
-  margin: 1rem;
-  flex-basis: 80%;
-  padding: 1.5rem;
-  text-align: left;
+  margin-top: 20px;
+  position: relative;
+  padding: 2rem;
+  text-align: center;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border: 10px solid #eaeaea;
+  color: white;
+  border-radius: 50px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
@@ -180,40 +115,34 @@ code {
 .logo {
   height: 1em;
 }
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
 .botonMovedor:hover {
   opacity: 1;
 }
 
 .botonMovedor {
+  transition: opacity 1s;
   position: absolute;
   opacity: 0.6;
   color: #eaeaea;
-  background-color: #d8bdbd;
   font-size: 1rem;
   padding: 0.5rem 0.5rem;
-  border: none;
+  border: 5px;
+  border-style: inset;
+  border-color: #eaeaea;
   cursor: pointer;
-  border-radius: 4rem;
+  border-radius: 1rem;
   text-align: center;
   transform: translate(-50%, -50%);
 }
-#imagen {
-  border: solid hsla(318, 78%, 25%, 0.527);
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  width: 64rem;
-  height: 44.8rem;
+.imagenEscena {
+  position: relative;
+  width: 1000px;
+  height: 666px;
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 1rem;
+  margin-right: 1rem;
+  color: white;
+  text-align: center;
 }
 /*@media (max-width: 768px) {
   #imagen {
@@ -235,33 +164,80 @@ td {
   overflow: hidden;
   outline: none;
   transform: translate(-50%, -50%);
+  transition: opacity 1s;
 }
 .botonInfo:hover {
   opacity: 1;
 }
 .nom {
   position: relative;
-  font-size: 4rem;
+  font-size: 2em;
   color: #eaeaea;
   text-align: center;
-  background-color: #6b4747;
-  border-radius: 4rem;
-  width: 25rem;
-  padding: 0.5rem 0.5rem;
 }
 .desc {
-  margin-top: 1rem;
   position: relative;
-  font-size: 1.5rem;
-  color: #eaeaea;
-  text-align: center;
-  background-color: #6b4747;
-  border-radius: 4rem;
-  width: 25rem;
-  padding: 0.5rem 0.5rem;
+  font-size: 1em;
+  color: transparent;
+  opacity: 0;
+  margin: 0 10px 0 10px;
+  transition: opacity 2s, color 2s;
 }
 .tabla {
-  position: absolute;
-  top: 1rem;
-  left: 67rem;
+  position: relative;
+}
+.poroto {
+  opacity: 0.5;
+  z-index: 1000;
+  height: 20%;
+  width: 100%;
+  color: rgb(122, 122, 122);
+  background-image: linear-gradient(to bottom, black, transparent);
+  transition: height 1s, color 2s, opacity 1s, font-size 2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.poroto:hover {
+  opacity: 1;
+  color: white;
+  height: 50%;
+  font-size: 2rem;
+}
+.poroto:hover ~ .botonMovedor {
+  opacity: 0;
+}
+.poroto:hover ~ .botonInfo {
+  opacity: 0;
+}
+.poroto:hover .desc {
+  color: #eaeaea;
+  opacity: 1;
+  text-shadow: none;
+}
+.profesor {
+  border-radius: 1rem;
+  height: 160px;
+  width: 160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 320px;
+}
+.paginaInicio {
+  background-image: url("../public/images/edificio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
