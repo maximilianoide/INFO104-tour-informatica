@@ -249,6 +249,15 @@ td {
     height: 10vw;
     width: 10vw;
   }
+  .popImages {
+    width: 33.3vw;
+  }
+  .poroto {
+    font-size: 1.65vw;
+  }
+  .poroto:hover {
+    font-size: 3.3vw;
+  }
 }
 
 @media (max-height: 666px) {
@@ -265,5 +274,14 @@ td {
   .botonInfo {
     height: 10vh;
     width: 10vh;
+  }
+  .popImages {
+    width: 50vh;
+  }
+  .poroto {
+    font-size: 2.5vh;
+  }
+  .poroto:hover {
+    font-size: 5vh;
   }
 }
